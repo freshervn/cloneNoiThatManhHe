@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cloneNoiThatManhHe/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/cloneNoiThatManhHe/static/js/main.b76f7d54.chunk.js",
+    "main.js.map": "/cloneNoiThatManhHe/static/js/main.b76f7d54.chunk.js.map",
+    "runtime-main.js": "/cloneNoiThatManhHe/static/js/runtime-main.5d466140.js",
+    "runtime-main.js.map": "/cloneNoiThatManhHe/static/js/runtime-main.5d466140.js.map",
+    "static/js/2.2d2b3176.chunk.js": "/cloneNoiThatManhHe/static/js/2.2d2b3176.chunk.js",
+    "static/js/2.2d2b3176.chunk.js.map": "/cloneNoiThatManhHe/static/js/2.2d2b3176.chunk.js.map",
+    "static/js/3.a6aa0437.chunk.js": "/cloneNoiThatManhHe/static/js/3.a6aa0437.chunk.js",
+    "static/js/3.a6aa0437.chunk.js.map": "/cloneNoiThatManhHe/static/js/3.a6aa0437.chunk.js.map",
+    "index.html": "/cloneNoiThatManhHe/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/cloneNoiThatManhHe/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.2d2b3176.chunk.js.LICENSE.txt": "/cloneNoiThatManhHe/static/js/2.2d2b3176.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/cloneNoiThatManhHe/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d466140.js",
+    "static/js/2.2d2b3176.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.b76f7d54.chunk.js"
+  ]
+}
