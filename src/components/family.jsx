@@ -50,7 +50,7 @@ class Family extends Component {
         return (
             <main className='container pt-4'>
                 <h1 className='size32 mb-3'>
-                    Famlily-2
+                    Famlily 2
                 </h1>
                 <dl className='my-gallery'>
                     <dd>
