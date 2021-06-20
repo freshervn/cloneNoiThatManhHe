@@ -1,0 +1,18 @@
+nav{
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-between;
+    .nav-links{
+        list-style: none;
+        margin-left: auto;
+        display: flex;        
+        .link{
+            margin-right: 1em;
+            a{
+                color: black;
+                text-decoration: none;
+                font-family: 'Lobster';
+            }
+        }
+    }
+}

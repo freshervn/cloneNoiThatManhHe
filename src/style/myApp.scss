@@ -1,0 +1,23 @@
+@font-face{
+    src: url('./Nunito/Nunito-Regular.ttf');
+    font-family: "Nunito";
+}
+@font-face{
+    src: url('./Lobster/Lobster-Regular.ttf');
+    font-family: "Lobster";
+}
+@import 'color';
+@import "shape";
+@import "text";
+@import "nav";
+:root{
+    --theme:#002855;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f8f8ff;
+    *{
+        font-family: "Nunito" ;
+    }    
+}

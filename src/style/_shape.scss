@@ -1,0 +1,22 @@
+.slicknav_icon {
+    float: left;
+    width: 1.125em;
+    height: .875em;
+    margin: auto;
+    &:before {
+        background: 0 0;
+        width: 1.125em;
+        height: .875em;
+        display: block;
+        content: "";
+        position: absolute;
+    }
+    .slicknav_icon-bar {
+        background-color: #fff;
+        display: block;
+        width: 1.125em;
+        height: .125em;
+        border-radius: 1px;
+        margin-bottom: 3px;
+    }
+}
