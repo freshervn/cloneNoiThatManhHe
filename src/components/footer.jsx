@@ -7,8 +7,8 @@ class Footer extends Component {
         return ( 
             <React.StrictMode>
                 <span id="topPages"></span>  
-                <a href='#topPages'>
-                    <img src={btn_scroll} alt="btn-scroll" id='btn-scroll'/>
+                <a href='#topPages' id='btn-scroll'>
+                    <img src={btn_scroll} alt="btn-scroll" />
                 </a>
             </React.StrictMode>
          );

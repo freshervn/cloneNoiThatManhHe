@@ -54,136 +54,136 @@ class Family extends Component {
                 </h1>
                 <dl className='my-gallery'>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan44}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan44}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan43}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan43}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan42}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan42}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan41}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan41}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan40}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan40}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan39}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan39}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan38}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan38}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan37}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan37}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan36}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan36}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan35}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan35}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan34}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan34}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan33}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan33}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan32}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan32}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan31}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan31}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan30}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan30}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan29}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan29}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan28}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan28}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan27}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan27}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan26}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan26}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan25}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan25}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan24}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan24}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan23}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan23}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan22}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan22}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan21}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan21}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan20}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan20}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan19}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan19}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan18}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan18}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan17}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan17}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan16}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan16}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan15}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan15}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan14}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan14}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan13}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan13}/>
                     </dd>                 
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan11}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan11}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan10}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan10}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan9}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan9}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan8}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan8}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan7}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan7}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan6}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan6}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan5}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan5}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan4}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan4}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan3}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan3}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan2}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan2}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan1}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan1}/>
                     </dd>
                     <dd>
-                        <img alt='anh hoi ban than' src={banthan12}/>
+                        <img alt='anh hoi ban than' className='w-100 rounded' src={banthan12}/>
                     </dd>
                 </dl>
             </main>

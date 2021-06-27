@@ -3,16 +3,19 @@
     border: 2px solid var(--theme);    
     border-radius: 15px;
     overflow: hidden;
-    .name{
-        position: absolute;
-        background: rgba(255, 255, 255,0.7);
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;   
-        transition: 0.3s ease-in-out;    
-        margin-bottom: 0;
-        font-size: 22px;
+    box-sizing: border-box;    
+    footer{
+        background: rgba(0,0,0,.7);
+        // position: absolute;
+        // bottom: 0;
+        // left: 0;
+        // right: 0;
+        padding: 10px;
+        .name{
+            transition: 0.3s ease-in-out;    
+            margin-bottom: 0;
+            font-size: 16px;
+        }
     }
     &:hover{
         .name{

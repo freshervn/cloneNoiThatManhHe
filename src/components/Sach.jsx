@@ -14,8 +14,10 @@ class Sach extends Component {
                     {Books.map((book) =>                                        
                         <dd key={book.id}>
                             <div className='books-item'>
-                                <h1 className='name'>{book.name}</h1>
-                                <img src={book.images} alt={book.name}/>
+                                <img src={book.images} alt={book.name} className='w-100'/>
+                                <footer>
+                                    <h1 className='name'>{book.name}</h1>
+                                </footer>
                             </div>
                         </dd>
                     )}
