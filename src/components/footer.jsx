@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../style/footer.scss';
 import btn_scroll from '../images/back-to-top.png';
 class Footer extends Component {
