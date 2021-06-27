@@ -19,6 +19,7 @@
     -webkit-line-clamp: $numberline;
     -webkit-box-orient: vertical;
     height: $numberline * 1.5em + 0.1em;
+    line-height: 1.6em;
 }
 .line-2-ellipsis,.limit-2{
     @include line-ellipsis(2);
@@ -38,6 +39,9 @@
 .size-12{
     font-size: 12px !important;
 }
+.size-14{
+    font-size: 14px !important;
+}
 .size-13{
     font-size: 13px !important;
 }
@@ -46,6 +50,9 @@
 }
 .size-10{
     font-size: 10px !important;
+}
+.size-16{
+    font-size: 16px !important;    
 }
 .size-16-14{
     font-size: 14px !important;
@@ -79,6 +86,9 @@
 }
 .size-24{
     font-size: 24px !important;
+}
+.size-28{
+    font-size: 28px !important;
 }
 .size-32-24{
     font-size: 24px !important;
