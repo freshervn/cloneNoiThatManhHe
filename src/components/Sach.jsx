@@ -12,7 +12,7 @@ class Sach extends Component {
                     </h1>
                 <dl className='my-gallery'>
                     {Books.map((book) =>                                        
-                        <dd key={book.id} className='p-3'>
+                        <dd key={book.id}>
                             <div className='books-item'>
                                 <h1 className='name'>{book.name}</h1>
                                 <img src={book.images} alt={book.name}/>
