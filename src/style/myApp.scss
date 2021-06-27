@@ -10,6 +10,9 @@
 @import "shape";
 @import "text";
 @import "nav";
+html{
+    scroll-behavior: smooth;
+}
 :root{
     --theme:#002855;
 }
@@ -19,5 +22,5 @@ body{
     background-color: #f8f8ff;
     *{
         font-family: "Nunito" ;
-    }    
+    }        
 }

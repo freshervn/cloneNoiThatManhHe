@@ -1,0 +1,13 @@
+#btn-scroll{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: var(--navIndex);
+    border: none;
+    background: transparent;
+    opacity: 0.5;
+    transform: rotate(180deg);
+    &:hover{
+        opacity: 1;
+    }
+}

@@ -48,142 +48,142 @@ class Family extends Component {
     state = {  }
     render() {        
         return (
-            <main className='container pt-4'>
+            <main className='container-fluid pt-4'>
                 <h1 className='size32 mb-3'>
                     Famlily 2
                 </h1>
                 <dl className='my-gallery'>
                     <dd>
-                        <img src={banthan44}/>
+                        <img alt='anh hoi ban than' src={banthan44}/>
                     </dd>
                     <dd>
-                        <img src={banthan43}/>
+                        <img alt='anh hoi ban than' src={banthan43}/>
                     </dd>
                     <dd>
-                        <img src={banthan42}/>
+                        <img alt='anh hoi ban than' src={banthan42}/>
                     </dd>
                     <dd>
-                        <img src={banthan41}/>
+                        <img alt='anh hoi ban than' src={banthan41}/>
                     </dd>
                     <dd>
-                        <img src={banthan40}/>
+                        <img alt='anh hoi ban than' src={banthan40}/>
                     </dd>
                     <dd>
-                        <img src={banthan39}/>
+                        <img alt='anh hoi ban than' src={banthan39}/>
                     </dd>
                     <dd>
-                        <img src={banthan38}/>
+                        <img alt='anh hoi ban than' src={banthan38}/>
                     </dd>
                     <dd>
-                        <img src={banthan37}/>
+                        <img alt='anh hoi ban than' src={banthan37}/>
                     </dd>
                     <dd>
-                        <img src={banthan36}/>
+                        <img alt='anh hoi ban than' src={banthan36}/>
                     </dd>
                     <dd>
-                        <img src={banthan35}/>
+                        <img alt='anh hoi ban than' src={banthan35}/>
                     </dd>
                     <dd>
-                        <img src={banthan34}/>
+                        <img alt='anh hoi ban than' src={banthan34}/>
                     </dd>
                     <dd>
-                        <img src={banthan33}/>
+                        <img alt='anh hoi ban than' src={banthan33}/>
                     </dd>
                     <dd>
-                        <img src={banthan32}/>
+                        <img alt='anh hoi ban than' src={banthan32}/>
                     </dd>
                     <dd>
-                        <img src={banthan31}/>
+                        <img alt='anh hoi ban than' src={banthan31}/>
                     </dd>
                     <dd>
-                        <img src={banthan30}/>
+                        <img alt='anh hoi ban than' src={banthan30}/>
                     </dd>
                     <dd>
-                        <img src={banthan29}/>
+                        <img alt='anh hoi ban than' src={banthan29}/>
                     </dd>
                     <dd>
-                        <img src={banthan28}/>
+                        <img alt='anh hoi ban than' src={banthan28}/>
                     </dd>
                     <dd>
-                        <img src={banthan27}/>
+                        <img alt='anh hoi ban than' src={banthan27}/>
                     </dd>
                     <dd>
-                        <img src={banthan26}/>
+                        <img alt='anh hoi ban than' src={banthan26}/>
                     </dd>
                     <dd>
-                        <img src={banthan25}/>
+                        <img alt='anh hoi ban than' src={banthan25}/>
                     </dd>
                     <dd>
-                        <img src={banthan24}/>
+                        <img alt='anh hoi ban than' src={banthan24}/>
                     </dd>
                     <dd>
-                        <img src={banthan23}/>
+                        <img alt='anh hoi ban than' src={banthan23}/>
                     </dd>
                     <dd>
-                        <img src={banthan22}/>
+                        <img alt='anh hoi ban than' src={banthan22}/>
                     </dd>
                     <dd>
-                        <img src={banthan21}/>
+                        <img alt='anh hoi ban than' src={banthan21}/>
                     </dd>
                     <dd>
-                        <img src={banthan20}/>
+                        <img alt='anh hoi ban than' src={banthan20}/>
                     </dd>
                     <dd>
-                        <img src={banthan19}/>
+                        <img alt='anh hoi ban than' src={banthan19}/>
                     </dd>
                     <dd>
-                        <img src={banthan18}/>
+                        <img alt='anh hoi ban than' src={banthan18}/>
                     </dd>
                     <dd>
-                        <img src={banthan17}/>
+                        <img alt='anh hoi ban than' src={banthan17}/>
                     </dd>
                     <dd>
-                        <img src={banthan16}/>
+                        <img alt='anh hoi ban than' src={banthan16}/>
                     </dd>
                     <dd>
-                        <img src={banthan15}/>
+                        <img alt='anh hoi ban than' src={banthan15}/>
                     </dd>
                     <dd>
-                        <img src={banthan14}/>
+                        <img alt='anh hoi ban than' src={banthan14}/>
                     </dd>
                     <dd>
-                        <img src={banthan13}/>
+                        <img alt='anh hoi ban than' src={banthan13}/>
                     </dd>                 
                     <dd>
-                        <img src={banthan11}/>
+                        <img alt='anh hoi ban than' src={banthan11}/>
                     </dd>
                     <dd>
-                        <img src={banthan10}/>
+                        <img alt='anh hoi ban than' src={banthan10}/>
                     </dd>
                     <dd>
-                        <img src={banthan9}/>
+                        <img alt='anh hoi ban than' src={banthan9}/>
                     </dd>
                     <dd>
-                        <img src={banthan8}/>
+                        <img alt='anh hoi ban than' src={banthan8}/>
                     </dd>
                     <dd>
-                        <img src={banthan7}/>
+                        <img alt='anh hoi ban than' src={banthan7}/>
                     </dd>
                     <dd>
-                        <img src={banthan6}/>
+                        <img alt='anh hoi ban than' src={banthan6}/>
                     </dd>
                     <dd>
-                        <img src={banthan5}/>
+                        <img alt='anh hoi ban than' src={banthan5}/>
                     </dd>
                     <dd>
-                        <img src={banthan4}/>
+                        <img alt='anh hoi ban than' src={banthan4}/>
                     </dd>
                     <dd>
-                        <img src={banthan3}/>
+                        <img alt='anh hoi ban than' src={banthan3}/>
                     </dd>
                     <dd>
-                        <img src={banthan2}/>
+                        <img alt='anh hoi ban than' src={banthan2}/>
                     </dd>
                     <dd>
-                        <img src={banthan1}/>
+                        <img alt='anh hoi ban than' src={banthan1}/>
                     </dd>
                     <dd>
-                        <img src={banthan12}/>
+                        <img alt='anh hoi ban than' src={banthan12}/>
                     </dd>
                 </dl>
             </main>

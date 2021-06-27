@@ -1,0 +1,22 @@
+.books-item{
+    position: relative;
+    border: 2px solid var(--theme);    
+    border-radius: 15px;
+    overflow: hidden;
+    .name{
+        position: absolute;
+        background: rgba(255, 255, 255,0.7);
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;   
+        transition: 0.3s ease-in-out;    
+        margin-bottom: 0;
+        font-size: 22px;
+    }
+    &:hover{
+        .name{
+            opacity: 1;
+        }
+    }
+}

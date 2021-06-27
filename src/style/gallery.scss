@@ -1,25 +1,21 @@
 .my-gallery{
-    display: flex;
-    flex-wrap: wrap;
+    column-width: 150px;
+    column-gap: 1em;
+    @media (min-width:567px) { 
+        column-width: 250px;
+    }
+    @media (min-width:768px) {        
+        column-width: 250px;
+    }
+    @media (min-width:992px) {        
+        column-width: 250px;
+    }
     dd{
         width: 100%;
-        margin-bottom: 1.5em;
+        margin-bottom: 1em;
         img{
             border-radius: 10px;
             width: 100%;
-        }        
-        @media (min-width:567px) {
-            width: 50%;
-            padding: 0.5em;
-        }
-        @media (min-width:768px) {
-            width: 33.33%;
-        }
-        @media (min-width:992px) {
-            width: 25%;
-        }
-        @media (min-width:1440px) {
-            min-width: 300px;
-        }
+        }   
     }
 }

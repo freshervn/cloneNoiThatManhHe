@@ -7,7 +7,7 @@ class About extends Component {
         return (
         <main className='container pt-5 text-center'>
             <figure className='myavatar mx-auto mb-5'>
-                <img src={myavtarHD }  />
+                <img src={myavtarHD } alt='myAvater' />
             </figure>
             <h1 className='size32'>
                 <b>

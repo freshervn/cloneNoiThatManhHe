@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
+import Books from '../data/myBook.json'
 class MainShop extends Component {
     state = {  }
     render() {        
         return (
             <main>
-                <h1>
-                    Shop
-                </h1>
+                {Books.map()}
             </main>
         );
     }

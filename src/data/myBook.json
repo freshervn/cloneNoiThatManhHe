@@ -1,0 +1,23 @@
+[
+    {   
+        "id":1,
+        "name":"Mai mối cho tôi nếu em có thể",
+        "author":"Susan Elizabeth phillips" ,
+        "gender":["18 +","Romantic"],
+        "images":"https://static.8cache.com/cover/o/eJzLyTDW140oqwp1ck_xTs_N1g8zKfWw8E_3i4zy1HeEgsAyE31XR3-LpBTdYN_i9Hin3CrXqPzsgjz_7LCytMySROPAgEBn53z9ciNDU90MYyMjAMQmG44=/mai-moi-cho-toi-neu-em-co-the.jpg"        
+    },
+    {   
+        "id":2,
+        "name":"1987",
+        "author":"Việt Nam",
+        "gender":["18 +"],        
+        "images":"https://static.8cache.com/cover/o/eJzLyTDW140oqwp1ck_xTs_N1g8zKfWw8E_3i4zy1HeEgsAyE31XR3-LpBTdYN_i9Hin3CrXqPzsgjz_7LCytMySROPAgEBn53z9ciNDU90MYyMjAMQmG44=/mai-moi-cho-toi-neu-em-co-the.jpg"                
+    },
+    {   
+        "id":3,
+        "name":"Bảy năm vẫn ngoảnh về phương bắc",
+        "author":"Ân tầm" ,
+        "gender":["16 +","Romantic","Action"],
+        "images":"https://static.8cache.com/cover/o/eJzLyTDW140oqwp1ck_xTs_N1g8zKfWw8E_3i4zy1HeEgsAyE31XR3-LpBTdYN_i9Hin3CrXqPzsgjz_7LCytMySROPAgEBn53z9ciNDU90MYyMjAMQmG44=/mai-moi-cho-toi-neu-em-co-the.jpg"        
+    }
+]

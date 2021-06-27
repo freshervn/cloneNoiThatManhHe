@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import * as BsIcons from 'react-icons/bs';
+// import * as BsIcons from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 class Navbar extends Component {
     render() { 
@@ -12,18 +12,18 @@ class Navbar extends Component {
                     </Link>
                 </li>    
                 <li className='link'>
-                    <Link to='/linh-tinh'>
-                        Linh tinh
+                    <Link to='/sach'>
+                        Sách
                     </Link>
                 </li>    
-                <li className='link'>
+                {/* <li className='link'>
                     <Link to='/video'>
                         Video
                     </Link>
-                </li>                
+                </li>                 */}
                 <li className='link'>
                     <Link to='/about'>
-                        About
+                        Mô tả                        
                     </Link>
                 </li>
             </ul>
