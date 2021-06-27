@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/cloneNoiThatManhHe/static/css/main.188c33fc.chunk.css",
-    "main.js": "/cloneNoiThatManhHe/static/js/main.f27b8802.chunk.js",
-    "main.js.map": "/cloneNoiThatManhHe/static/js/main.f27b8802.chunk.js.map",
+    "main.css": "/cloneNoiThatManhHe/static/css/main.1e18856d.chunk.css",
+    "main.js": "/cloneNoiThatManhHe/static/js/main.eb06529c.chunk.js",
+    "main.js.map": "/cloneNoiThatManhHe/static/js/main.eb06529c.chunk.js.map",
     "runtime-main.js": "/cloneNoiThatManhHe/static/js/runtime-main.00362da4.js",
     "runtime-main.js.map": "/cloneNoiThatManhHe/static/js/runtime-main.00362da4.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/cloneNoiThatManhHe/static/css/2.4c97ca4f.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.422883e6.chunk.js.map": "/cloneNoiThatManhHe/static/js/2.422883e6.chunk.js.map",
     "index.html": "/cloneNoiThatManhHe/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/cloneNoiThatManhHe/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.188c33fc.chunk.css.map": "/cloneNoiThatManhHe/static/css/main.188c33fc.chunk.css.map",
+    "static/css/main.1e18856d.chunk.css.map": "/cloneNoiThatManhHe/static/css/main.1e18856d.chunk.css.map",
     "static/js/2.422883e6.chunk.js.LICENSE.txt": "/cloneNoiThatManhHe/static/js/2.422883e6.chunk.js.LICENSE.txt",
     "static/media/myApp.scss": "/cloneNoiThatManhHe/static/media/Nunito-Regular.e4eb7682.ttf",
     "static/media/bt1.fc0a0f28.jpg": "/cloneNoiThatManhHe/static/media/bt1.fc0a0f28.jpg",
@@ -64,7 +64,7 @@
     "static/js/runtime-main.00362da4.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.422883e6.chunk.js",
-    "static/css/main.188c33fc.chunk.css",
-    "static/js/main.f27b8802.chunk.js"
+    "static/css/main.1e18856d.chunk.css",
+    "static/js/main.eb06529c.chunk.js"
   ]
 }
