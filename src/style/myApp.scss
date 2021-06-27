@@ -16,11 +16,12 @@ html{
 :root{
     --theme:#002855;
 }
-body{
+body{    
     padding: 0;
     margin: 0;
-    background-color: #f8f8ff;
+    background-color: black;
     *{
         font-family: "Nunito" ;
     }        
+    color: white;
 }

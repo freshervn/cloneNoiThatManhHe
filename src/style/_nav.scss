@@ -1,15 +1,16 @@
 nav{
     display: flex;
-    background-color: lightblue;
+    background-color: #333;
     justify-content: space-between;
     .nav-links{
         list-style: none;
         margin-left: auto;
-        display: flex;        
+        display: flex;       
+        margin-bottom: 0; 
         .link{
             margin-right: 1em;
             a{
-                color: black;
+                color: white;
                 text-decoration: none;
                 font-family: 'Lobster';
             }
