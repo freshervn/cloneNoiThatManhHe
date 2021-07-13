@@ -8,7 +8,7 @@ class Home extends Component {
             <React.StrictMode>
                 <Banner/>
                 <main className='container'>                
-                <Miniproduct/>
+                {/* <Miniproduct/> */}
                 </main>
            </React.StrictMode>
         );

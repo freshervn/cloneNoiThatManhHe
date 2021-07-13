@@ -105,14 +105,6 @@ class About extends Component {
                     </u>
                     &nbsp;Đánh bại tướng thì làm tướng.  
                 </p>
-                {/* <p>
-                    <u>
-                        <b>
-                        Lính :
-                        </b>
-                    </u>
-                    &nbsp;Chiến đấu để bảo vệ hậu phương.  
-                </p> */}
             </section>
         </main>
         );

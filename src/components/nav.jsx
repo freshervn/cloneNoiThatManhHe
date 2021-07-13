@@ -6,13 +6,18 @@ class Navbar extends Component {
         return (          
         <nav className='container-fluid d-flex justify-content-between py-2 flex-wrap'>            
             <ul className='nav-links'>
-                <li className='link'>
+                {/* <li className='link'>
                     <Link to='/family'>
                         Gia Đình
                     </Link>
+                </li>     */}
+                <li className='link'>
+                    <Link to='' replace='false'>
+                        Home
+                    </Link>
                 </li>    
                 <li className='link'>
-                    <Link to='/sach'>
+                    <Link to='/sach' replace='false'>
                         Sách
                     </Link>
                 </li>    
@@ -22,7 +27,7 @@ class Navbar extends Component {
                     </Link>
                 </li>                 */}
                 <li className='link'>
-                    <Link to='/about'>
+                    <Link to='/about' replace='false'>
                         Mô tả                        
                     </Link>
                 </li>
