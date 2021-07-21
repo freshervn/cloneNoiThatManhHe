@@ -4,7 +4,7 @@
 function BornCaculation(){
     
     // lấy ngày tháng sinh
-    var sex_day = document.getElementById('sex-day').value,
+    var sex_day = document.getElementById('sex-day').value;
     var d = new Date(sex_day);
     if (d.valueOf() ) {
         var day = d.getDate(),
@@ -12,7 +12,7 @@ function BornCaculation(){
         year = d.getFullYear();
     }
     // lấy chu kì kinh nguyệt    
-    menstrual=document.getElementById('menstrual').value ;
+    var menstrual=document.getElementById('menstrual').value ;
 
     // truyền tham số : ngày x,tháng x, nẵm x, chù kỳ kinh nguyệt
     Borndate(day,month,year,menstrual)[0];// là ngày sinh
