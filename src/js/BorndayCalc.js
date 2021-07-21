@@ -1,16 +1,27 @@
+// chương trình tính ngày sinh
+
+// lấy dữ liệu bỏ vào hàm 
 function BornCaculation(){
+    
+    // lấy ngày tháng sinh
     var sex_day = document.getElementById('sex-day').value,
-    menstrual=document.getElementById('menstrual').value ;
     var d = new Date(sex_day);
     if (d.valueOf() ) {
-        var year = d.getFullYear(),    
+        var day = d.getDate(),
         month = d.getMonth()+1,
-        day = d.getDate();
-        // alert(day,month,year,menstrual);
-        Borndate(day,month,year,menstrual);
+        year = d.getFullYear();
     }
+    // lấy chu kì kinh nguyệt    
+    menstrual=document.getElementById('menstrual').value ;
+
+    // truyền tham số : ngày x,tháng x, nẵm x, chù kỳ kinh nguyệt
+    Borndate(day,month,year,menstrual)[0];// là ngày sinh
+    Borndate(day,month,year,menstrual)[1];// là tháng sinh
+    Borndate(day,month,year,menstrual)[2];// là năm sinh            
 }
 BornCaculation()
+
+// trả lại hết quả ngày sinh theo dạng [ngày,tháng,năm]
 function Borndate(sex_day,sex_month,sex_year,menstrual){
     if(leapYear(sex_year)){        
         var m=[31,29,31,30,31,30,31,31,30,31,30,31];
@@ -35,6 +46,7 @@ function Borndate(sex_day,sex_month,sex_year,menstrual){
     }
     return [BronDay,BronMonth,BornYear];
 }
+// kiểm tra năm nhuận (true,false)
 function leapYear(year){
     if ((year % 4===0 &&year%100 !==0 && year % 400 !==0)||(year%100===0 && year % 400===0)){
         return true;
