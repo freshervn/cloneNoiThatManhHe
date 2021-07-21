@@ -1,0 +1,41 @@
+.DAT_skills{
+    .skill{
+        height: 400px;
+        transition: 0.3s ease-in-out;
+        position: relative;
+        *{
+            transition: 0.3s ease-in-out;
+        }
+        .font,.back{    
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+        }
+        .font{        
+            z-index: 0;        
+        }
+        .back{
+            z-index: 0;
+            opacity: 0;
+            transform: rotateY(-180deg);
+        }
+        img{
+            max-width: 100%;
+        }
+    }   
+    .hv-flip-X{
+        &:hover{
+            .skill{
+                transform: rotateY(-180deg);
+                .font{
+                    opacity: 0;
+                }
+                .back{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

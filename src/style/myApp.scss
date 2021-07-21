@@ -9,6 +9,7 @@
 @import 'color';
 @import "shape";
 @import "text";
+@import "list";
 @import "nav";
 html{
     scroll-behavior: smooth;
@@ -19,9 +20,12 @@ html{
 body{    
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: ghostwhite;
     *{
         font-family: "Nunito" ;
     }        
-    color: white;
+    &.dark-mode{
+        background-color: black;
+        color: white;
+    }
 }

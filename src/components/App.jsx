@@ -11,24 +11,47 @@ import Video from './Video'
 import Footer from "./footer";
 import Sach_cate from './Sach_cate';
 import Sach from './sach';
+import BornCalc from './tinh-ngay-sinh-cho-be';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 class App extends Component {   
     render() { 
-        return (      
-            <Router>
-                <Navbar/>    
-                <Switch>
-                    <Route path='/' exact component={Home}/>
-                    <Route path='/family' exact component={Family}/>
-                    {/* <Route path='/linh-tinh' exact component={Linh_tinh}/> */}
-                    <Route path='/sach' exact component={Sach_cate}/>
-                    <Route path='/sach/:id' component={Sach}/>
-                    <Route path='/video' exact component={Video}/>                               
-                    <Route path='/About' component={About}/>                               
-                </Switch>
-                <Footer/>
-            </Router>
-        );
+        let width = window.innerWidth;
+        if (width > 768) {        
+            return (
+                <Router>
+                    <Navbar/>    
+                        <Switch>
+                            <Route path='/my_diary' exact component={Home}/>
+                            <Route path='/family' exact component={Family}/>
+                            {/* <Route path='/linh-tinh' exact component={Linh_tinh}/> */}
+                            <Route path='/sach' exact component={Sach_cate}/>
+                            <Route path='/sach/:id' component={Sach}/>
+                            <Route path='/video' exact component={Video}/>                               
+                            <Route path='/About' component={About}/>                                                                 
+                            <Route path='/BornCalc' component={BornCalc}/>                               
+                        </Switch>
+                    <Footer/>
+                </Router>
+            );
+        } 
+        else {
+            return (
+                <Router>
+                    <Navbar/>    
+                        <Switch>
+                            <Route path='/my_diary' exact component={Home}/>
+                            <Route path='/family' exact component={Family}/>
+                            {/* <Route path='/linh-tinh' exact component={Linh_tinh}/> */}
+                            <Route path='/sach' exact component={Sach_cate}/>
+                            <Route path='/sach/:id' component={Sach}/>
+                            <Route path='/video' exact component={Video}/>                                                                                          
+                            <Route path='/About' component={About}/>     
+                            <Route path='/BornCalc' component={BornCalc}/>                               
+                        </Switch>
+                    <Footer/>
+                </Router>
+            );
+        }        
     }
 }
 export default App;

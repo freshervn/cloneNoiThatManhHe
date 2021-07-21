@@ -12,7 +12,7 @@ class Navbar extends Component {
                     </Link>
                 </li>     */}
                 <li className='link'>
-                    <Link to='' replace='false'>
+                    <Link to='/my_diary' replace='false'>
                         Home
                     </Link>
                 </li>    
@@ -29,6 +29,11 @@ class Navbar extends Component {
                 <li className='link'>
                     <Link to='/about' replace='false'>
                         Mô tả                        
+                    </Link>
+                </li>
+                <li className='link'>
+                    <Link to='/BornCalc' replace='false'>
+                        Tính ngày sinh cho bé                      
                     </Link>
                 </li>
             </ul>
