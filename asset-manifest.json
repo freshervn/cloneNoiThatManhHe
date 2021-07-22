@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/my_diary/static/css/main.493d32b3.chunk.css",
-    "main.js": "/my_diary/static/js/main.24fb86e7.chunk.js",
-    "main.js.map": "/my_diary/static/js/main.24fb86e7.chunk.js.map",
+    "main.css": "/my_diary/static/css/main.c156cd0f.chunk.css",
+    "main.js": "/my_diary/static/js/main.9970d30d.chunk.js",
+    "main.js.map": "/my_diary/static/js/main.9970d30d.chunk.js.map",
     "runtime-main.js": "/my_diary/static/js/runtime-main.7260389e.js",
     "runtime-main.js.map": "/my_diary/static/js/runtime-main.7260389e.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/my_diary/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.8013e707.chunk.js": "/my_diary/static/js/2.8013e707.chunk.js",
-    "static/js/2.8013e707.chunk.js.map": "/my_diary/static/js/2.8013e707.chunk.js.map",
+    "static/js/2.d74af336.chunk.js": "/my_diary/static/js/2.d74af336.chunk.js",
+    "static/js/2.d74af336.chunk.js.map": "/my_diary/static/js/2.d74af336.chunk.js.map",
     "index.html": "/my_diary/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/my_diary/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.493d32b3.chunk.css.map": "/my_diary/static/css/main.493d32b3.chunk.css.map",
-    "static/js/2.8013e707.chunk.js.LICENSE.txt": "/my_diary/static/js/2.8013e707.chunk.js.LICENSE.txt",
+    "static/css/main.c156cd0f.chunk.css.map": "/my_diary/static/css/main.c156cd0f.chunk.css.map",
+    "static/js/2.d74af336.chunk.js.LICENSE.txt": "/my_diary/static/js/2.d74af336.chunk.js.LICENSE.txt",
+    "static/media/CSS3.svg.4e67641b.png": "/my_diary/static/media/CSS3.svg.4e67641b.png",
+    "static/media/HTML5.svg.6b3b779d.png": "/my_diary/static/media/HTML5.svg.6b3b779d.png",
+    "static/media/JS.8896381a.png": "/my_diary/static/media/JS.8896381a.png",
     "static/media/myApp.scss": "/my_diary/static/media/Nunito-Regular.e4eb7682.ttf",
     "static/media/bt1.fc0a0f28.jpg": "/my_diary/static/media/bt1.fc0a0f28.jpg",
     "static/media/bt10.7e07675a.jpg": "/my_diary/static/media/bt10.7e07675a.jpg",
@@ -57,14 +60,13 @@
     "static/media/bt7.246990bc.jpg": "/my_diary/static/media/bt7.246990bc.jpg",
     "static/media/bt8.a9ab6b71.jpg": "/my_diary/static/media/bt8.a9ab6b71.jpg",
     "static/media/bt9.eb6b700e.jpg": "/my_diary/static/media/bt9.eb6b700e.jpg",
-    "static/media/mattoifullhad.d81bb634.jpg": "/my_diary/static/media/mattoifullhad.d81bb634.jpg",
-    "static/media/product.5db5f4f0.jpg": "/my_diary/static/media/product.5db5f4f0.jpg"
+    "static/media/mattoifullhad.d81bb634.jpg": "/my_diary/static/media/mattoifullhad.d81bb634.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7260389e.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.8013e707.chunk.js",
-    "static/css/main.493d32b3.chunk.css",
-    "static/js/main.24fb86e7.chunk.js"
+    "static/js/2.d74af336.chunk.js",
+    "static/css/main.c156cd0f.chunk.css",
+    "static/js/main.9970d30d.chunk.js"
   ]
 }
