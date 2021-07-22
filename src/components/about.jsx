@@ -42,13 +42,13 @@ class About extends Component {
                 </figure>                                
             </header>
             <div className='d-flex justify-content-between px-3 flex-wrap'>
-                <a href='https://www.facebook.com/guyfawker4' className='btn bg-light p-2'>                                                                    
+                <a href='https://www.facebook.com/guyfawker4' className='btn bg-whitesmoke p-1 px-2 flex-auto'>                                                                    
                 <img src={require('../images/icons/facebook-new.png').default } alt="" className='h-1 mr-2'/>
                     <b>
                         Facebook
                     </b>
                 </a>              
-                <a href='https://www.facebook.com/messages/t/100013417411468/' className='btn bg-primary p-2'>                       
+                <a href='https://www.facebook.com/messages/t/100013417411468/' className='btn bg-primary p-1 px-2 '>                       
                     <img src={require('../images/icons/messenger.png').default } alt="" className='h-1 mr-2'/>
                     <b className='text-white'>
                         Messager
@@ -60,21 +60,50 @@ class About extends Component {
                 <hr className='w-100 my-2'/>
             </div>
             <div className='px-3'>
-                <ul className='list-no-style p-0 size-16'>
+                <ul className='list-no-style p-0 size-16 mb-0'>
                     <li className='d-flex'>                                      
                         <img src={require('../images/icons/home.png').default } alt="" className='h-1 mr-2 light-mode'/>             
-                        <p>
+                        <p className='mb-2'>
                             Sống tại <b>Hà Nội</b>
                         </p>
                     </li>
                     <li className='d-flex'>                                      
                         <img src={require('../images/icons/location.png').default } alt="" className='h-1 mr-2 light-mode'/>             
-                        <p>
+                        <p className='mb-2'> 
                             Đến từ <b>Tuyên Quang</b>
                         </p>
                     </li>
                 </ul>
             </div>                
+            <div className='px-3'>
+                <ul className='list-no-style row px-0 mx-0'>
+                    <li className='rounded-pill bg-whitesmoke py-1 px-3 mr-2 mb-2'>
+                    📖 <b>
+                            Đọc sách
+                        </b>
+                    </li>
+                    <li className='rounded-pill bg-whitesmoke py-1 px-3 mr-2 mb-2'>
+                    🍕️ <b>
+                            Ăn uống
+                        </b>
+                    </li>
+                    <li className='rounded-pill bg-whitesmoke py-1 px-3 mr-2 mb-2'>
+                    💤 <b>
+                            Ngủ
+                        </b>
+                    </li>
+                    <li className='rounded-pill bg-whitesmoke py-1 px-3 mr-2 mb-2'>
+                    🎧 <b>
+                            Nghe nhạc
+                        </b>
+                    </li>
+                    <li className='rounded-pill bg-whitesmoke py-1 px-3 mr-2 mb-2'>
+                    🎮 <b>
+                            Trò chơi điện tử
+                        </b>
+                    </li>
+                </ul>
+            </div>
             <section>
                 <h2 className='size-16'>
                     <b>
