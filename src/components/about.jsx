@@ -29,16 +29,17 @@ class About extends Component {
                 <figure className='avatar'>
                     <img src={require('../images/avatar.jpg').default} alt=""/>                    
                     <figcaption>
-                    <h1 className='size-28'>                        
-                        Bùi Thành Đạt                        
+                    <h1 className='size-22'>                        
+                        <b>
+                            Bùi Đạt                        
+                        </b>
                     </h1>
+                    <p>
+                        Cá sấu
+                    </p>
                     </figcaption>
                 </figure>                
             </header>
-
-            <h3 className='size-16'>                    
-                    Cá sấu
-                </h3>
             <section>
                 <h2 className='size-16'>
                     <b>
