@@ -19,18 +19,21 @@ class About extends Component {
                     <img src={require('../images/icons/search.png').default } alt="" className='h-1em'/>
                 </button>
             </nav>
-            <header className='text-center p-2'>
+            <header className='text-center p-3'>
                 <picture>
                     <source media="(min-width:465px)" srcset={require('../images/my-background.jpg').default}/>
                     <div className='background rounded'>
                         <img src={require('../images/my-background.jpg').default } alt="background" className='w-100'/>
                     </div>
                 </picture>
-                <h1 className='size-28'>
-                    <b>
-                        Bùi Thành Đạt
-                    </b>
-                </h1>
+                <figure className='avatar'>
+                    <img src={require('../images/avatar.jpg').default} alt=""/>                    
+                    <figcaption>
+                    <h1 className='size-28'>                        
+                        Bùi Thành Đạt                        
+                    </h1>
+                    </figcaption>
+                </figure>                
             </header>
 
             <h3 className='size-16'>                    

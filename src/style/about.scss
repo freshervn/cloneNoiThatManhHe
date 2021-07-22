@@ -1,8 +1,22 @@
 .Dat_Info{
     header{
         .background{
-            height: 184px;
+            height: 134px;
+            @media (min-width:768px) {                
+                height: 184px;
+            }
             overflow: hidden;
+        }
+        .avatar{            
+            margin-top: -50px;
+            img{
+                border: 3px solid white;
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+                top:50%;
+                left: 50%;
+            }
         }
     }
 }
