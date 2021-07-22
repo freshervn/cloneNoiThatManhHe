@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import myavtarHD from '../images/mattoifullhad.jpg';
 import '../style/about.scss';
 class About extends Component {
@@ -19,7 +20,7 @@ class About extends Component {
                     <img src={require('../images/icons/search.png').default } alt="" className='h-1em'/>
                 </button>
             </nav>
-            <header className='text-center p-3'>
+            <header className='text-center p-3'>            
                 <picture>
                     <source media="(min-width:465px)" srcset={require('../images/my-background.jpg').default}/>
                     <div className='background rounded'>
@@ -27,9 +28,9 @@ class About extends Component {
                     </div>
                 </picture>
                 <figure className='avatar'>
-                    <img src={require('../images/avatar.jpg').default} alt=""/>                    
-                    <figcaption>
-                    <h1 className='size-22'>                        
+                    <img src={require('../images/avatar.jpg').default} alt="avatar"/>                    
+                    <figcaption className='pt-3'>
+                    <h1 className='size-22 mb-0'>                        
                         <b>
                             Bùi Đạt                        
                         </b>
@@ -38,8 +39,22 @@ class About extends Component {
                         Cá sấu
                     </p>
                     </figcaption>
-                </figure>                
+                </figure>                                
             </header>
+            <div className='d-flex justify-content-between p-3'>
+                <a href='https://www.facebook.com/guyfawker4' className='btn bg-light mr-3'>                                                                    
+                <img src={require('../images/icons/facebook-new.png').default } alt="" className='h-1em mr-2'/>
+                    <b>
+                        Facebook
+                    </b>
+                </a>
+                <a href='https://www.facebook.com/messages/t/100013417411468/' className='btn bg-primary'>                       
+                    <img src={require('../images/icons/messenger.png').default } alt="" className='h-1em mr-2'/>
+                    <b className='text-white'>
+                        Messager
+                    </b>
+                </a>
+            </div>
             <section>
                 <h2 className='size-16'>
                     <b>
