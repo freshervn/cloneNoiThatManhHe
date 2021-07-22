@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/my_diary/static/css/main.40c328fb.chunk.css",
-    "main.js": "/my_diary/static/js/main.1da1c348.chunk.js",
-    "main.js.map": "/my_diary/static/js/main.1da1c348.chunk.js.map",
+    "main.css": "/my_diary/static/css/main.347a5612.chunk.css",
+    "main.js": "/my_diary/static/js/main.86059c10.chunk.js",
+    "main.js.map": "/my_diary/static/js/main.86059c10.chunk.js.map",
     "runtime-main.js": "/my_diary/static/js/runtime-main.7260389e.js",
     "runtime-main.js.map": "/my_diary/static/js/runtime-main.7260389e.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/my_diary/static/css/2.4c97ca4f.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.daf55e94.chunk.js.map": "/my_diary/static/js/2.daf55e94.chunk.js.map",
     "index.html": "/my_diary/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/my_diary/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.40c328fb.chunk.css.map": "/my_diary/static/css/main.40c328fb.chunk.css.map",
+    "static/css/main.347a5612.chunk.css.map": "/my_diary/static/css/main.347a5612.chunk.css.map",
     "static/js/2.daf55e94.chunk.js.LICENSE.txt": "/my_diary/static/js/2.daf55e94.chunk.js.LICENSE.txt",
     "static/media/CSS3.svg.4e67641b.png": "/my_diary/static/media/CSS3.svg.4e67641b.png",
     "static/media/HTML5.svg.6b3b779d.png": "/my_diary/static/media/HTML5.svg.6b3b779d.png",
@@ -61,7 +61,9 @@
     "static/media/bt7.246990bc.jpg": "/my_diary/static/media/bt7.246990bc.jpg",
     "static/media/bt8.a9ab6b71.jpg": "/my_diary/static/media/bt8.a9ab6b71.jpg",
     "static/media/bt9.eb6b700e.jpg": "/my_diary/static/media/bt9.eb6b700e.jpg",
+    "static/media/facebook-new.png": "/my_diary/static/media/facebook-new.8e789ae3.png",
     "static/media/mattoifullhad.d81bb634.jpg": "/my_diary/static/media/mattoifullhad.d81bb634.jpg",
+    "static/media/messenger.png": "/my_diary/static/media/messenger.eba7df9f.png",
     "static/media/my-background.jpg": "/my_diary/static/media/my-background.924f3b6b.jpg",
     "static/media/search.png": "/my_diary/static/media/search.44c2b64d.png"
   },
@@ -69,7 +71,7 @@
     "static/js/runtime-main.7260389e.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.daf55e94.chunk.js",
-    "static/css/main.40c328fb.chunk.css",
-    "static/js/main.1da1c348.chunk.js"
+    "static/css/main.347a5612.chunk.css",
+    "static/js/main.86059c10.chunk.js"
   ]
 }
