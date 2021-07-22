@@ -1,25 +1,41 @@
 import React, { Component } from 'react';
 import myavtarHD from '../images/mattoifullhad.jpg';
 import '../style/about.scss';
-
 class About extends Component {
     state = {  }
     render() { 
         return (
-        <main className='container pt-5 '>
-            <header className='text-center mb-5'>
-                <figure className='myavatar mx-auto mb-3'>
-                    <img src={myavtarHD } alt='myAvater' />
-                </figure>
+        <main className='Dat_Info'>
+            <nav className='d-flex justify-content-between border-bottom'>
+                <button className='btn bg-transparent'>
+                    <img src={require('../images/icons/preview.png').default } alt="" className='h-1em'/>
+                </button>
+                <p className='size-16 my-auto'>
+                    <b>
+                        Bùi Đạt
+                    </b>
+                </p>
+                <button  className='btn bg-transparent'>
+                    <img src={require('../images/icons/search.png').default } alt="" className='h-1em'/>
+                </button>
+            </nav>
+            <header className='text-center p-2'>
+                <picture>
+                    <source media="(min-width:465px)" srcset={require('../images/my-background.jpg').default}/>
+                    <div className='background rounded'>
+                        <img src={require('../images/my-background.jpg').default } alt="background" className='w-100'/>
+                    </div>
+                </picture>
                 <h1 className='size-28'>
                     <b>
                         Bùi Thành Đạt
                     </b>
                 </h1>
-                <h3 className='size-16'>                    
+            </header>
+
+            <h3 className='size-16'>                    
                     Cá sấu
                 </h3>
-            </header>
             <section>
                 <h2 className='size-16'>
                     <b>
