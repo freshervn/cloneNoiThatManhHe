@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my_diary/static/css/main.347a5612.chunk.css",
-    "main.js": "/my_diary/static/js/main.86059c10.chunk.js",
-    "main.js.map": "/my_diary/static/js/main.86059c10.chunk.js.map",
+    "main.js": "/my_diary/static/js/main.b6054fb2.chunk.js",
+    "main.js.map": "/my_diary/static/js/main.b6054fb2.chunk.js.map",
     "runtime-main.js": "/my_diary/static/js/runtime-main.7260389e.js",
     "runtime-main.js.map": "/my_diary/static/js/runtime-main.7260389e.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/my_diary/static/css/2.4c97ca4f.chunk.css",
@@ -65,13 +65,14 @@
     "static/media/mattoifullhad.d81bb634.jpg": "/my_diary/static/media/mattoifullhad.d81bb634.jpg",
     "static/media/messenger.png": "/my_diary/static/media/messenger.eba7df9f.png",
     "static/media/my-background.jpg": "/my_diary/static/media/my-background.924f3b6b.jpg",
-    "static/media/search.png": "/my_diary/static/media/search.44c2b64d.png"
+    "static/media/search.png": "/my_diary/static/media/search.44c2b64d.png",
+    "static/media/topcv.ico": "/my_diary/static/media/topcv.a7a6abc7.ico"
   },
   "entrypoints": [
     "static/js/runtime-main.7260389e.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.daf55e94.chunk.js",
     "static/css/main.347a5612.chunk.css",
-    "static/js/main.86059c10.chunk.js"
+    "static/js/main.b6054fb2.chunk.js"
   ]
 }
