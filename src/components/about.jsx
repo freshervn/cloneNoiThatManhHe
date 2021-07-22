@@ -9,7 +9,7 @@ class About extends Component {
         <main className='Dat_Info'>
             <nav className='d-flex justify-content-between border-bottom'>
                 <button className='btn bg-transparent'>
-                    <img src={require('../images/icons/preview.png').default } alt="" className='h-1em'/>
+                    <img src={require('../images/icons/preview.png').default } alt="" className='h-1'/>
                 </button>
                 <p className='size-16 my-auto'>
                     <b>
@@ -17,7 +17,7 @@ class About extends Component {
                     </b>
                 </p>
                 <button  className='btn bg-transparent'>
-                    <img src={require('../images/icons/search.png').default } alt="" className='h-1em'/>
+                    <img src={require('../images/icons/search.png').default } alt="" className='h-1'/>
                 </button>
             </nav>
             <header className='text-center p-3'>            
@@ -41,23 +41,40 @@ class About extends Component {
                     </figcaption>
                 </figure>                                
             </header>
-            <div className='d-flex justify-content-between px-3 size-14'>
-                <a href='https://www.facebook.com/guyfawker4' className='btn bg-light'>                                                                    
-                <img src={require('../images/icons/facebook-new.png').default } alt="" className='h-1em mr-2'/>
+            <div className='d-flex justify-content-between px-3 flex-wrap'>
+                <a href='https://www.facebook.com/guyfawker4' className='btn bg-light p-2'>                                                                    
+                <img src={require('../images/icons/facebook-new.png').default } alt="" className='h-1 mr-2'/>
                     <b>
                         Facebook
                     </b>
-                </a>
-                <a href='https://i.topcv.vn/buithanhdat?ref=3916884' className='btn size-14'>                       
-                    <img src={require('../images/icons/topcv.ico').default } alt="" className='h-1em mr-2'/>             
-                </a>
-                <a href='https://www.facebook.com/messages/t/100013417411468/' className='btn bg-primary size-14'>                       
-                    <img src={require('../images/icons/messenger.png').default } alt="" className='h-1em mr-2'/>
+                </a>              
+                <a href='https://www.facebook.com/messages/t/100013417411468/' className='btn bg-primary p-2'>                       
+                    <img src={require('../images/icons/messenger.png').default } alt="" className='h-1 mr-2'/>
                     <b className='text-white'>
                         Messager
                     </b>
                 </a>
+                <a href='https://i.topcv.vn/buithanhdat?ref=3916884' className='btn p-0 my-auto'>                       
+                    <img src={require('../images/icons/topcv.ico').default } alt="" className='h-2'/>             
+                </a>            
+                <hr className='w-100 my-2'/>
             </div>
+            <div className='px-3'>
+                <ul className='list-no-style p-0 size-16'>
+                    <li className='d-flex'>                                      
+                        <img src={require('../images/icons/home.png').default } alt="" className='h-1 mr-2 light-mode'/>             
+                        <p>
+                            Sống tại <b>Hà Nội</b>
+                        </p>
+                    </li>
+                    <li className='d-flex'>                                      
+                        <img src={require('../images/icons/location.png').default } alt="" className='h-1 mr-2 light-mode'/>             
+                        <p>
+                            Đến từ <b>Tuyên Quang</b>
+                        </p>
+                    </li>
+                </ul>
+            </div>                
             <section>
                 <h2 className='size-16'>
                     <b>
