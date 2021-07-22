@@ -27,7 +27,7 @@ class About extends Component {
                         <img src={require('../images/my-background.jpg').default } alt="background" className='w-100'/>
                     </div>
                 </picture>
-                <figure className='avatar'>
+                <figure className='avatar mb-0'>
                     <img src={require('../images/avatar.jpg').default} alt="avatar"/>                    
                     <figcaption className='pt-3'>
                     <h1 className='size-22 mb-0'>                        
@@ -35,20 +35,23 @@ class About extends Component {
                             Bùi Đạt                        
                         </b>
                     </h1>
-                    <p>
+                    <p className='mb-0'>
                         Cá sấu
                     </p>
                     </figcaption>
                 </figure>                                
             </header>
-            <div className='d-flex justify-content-between p-3'>
-                <a href='https://www.facebook.com/guyfawker4' className='btn bg-light mr-3'>                                                                    
+            <div className='d-flex justify-content-between px-3 size-14'>
+                <a href='https://www.facebook.com/guyfawker4' className='btn bg-light'>                                                                    
                 <img src={require('../images/icons/facebook-new.png').default } alt="" className='h-1em mr-2'/>
                     <b>
                         Facebook
                     </b>
                 </a>
-                <a href='https://www.facebook.com/messages/t/100013417411468/' className='btn bg-primary'>                       
+                <a href='https://i.topcv.vn/buithanhdat?ref=3916884' className='btn size-14'>                       
+                    <img src={require('../images/icons/topcv.ico').default } alt="" className='h-1em mr-2'/>             
+                </a>
+                <a href='https://www.facebook.com/messages/t/100013417411468/' className='btn bg-primary size-14'>                       
                     <img src={require('../images/icons/messenger.png').default } alt="" className='h-1em mr-2'/>
                     <b className='text-white'>
                         Messager
