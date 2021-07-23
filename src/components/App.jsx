@@ -22,7 +22,6 @@ class App extends Component {
                 <Router>
                     <Navbar/>    
                         <Switch>
-                            <Route path='' exact component={DAT_SKills}/>
                             <Route path='/family' exact component={Family}/>
                             {/* <Route path='/linh-tinh' exact component={Linh_tinh}/> */}
                             <Route path='/sach' exact component={Sach_cate}/>
@@ -30,6 +29,7 @@ class App extends Component {
                             <Route path='/video' exact component={Video}/>                               
                             <Route path='/About' component={About}/>                                                                 
                             <Route path='/BornCalc' component={BornCalc}/>                               
+                            <Route path='' exact component={DAT_SKills}/>
                         </Switch>
                     <Footer/>
                 </Router>
