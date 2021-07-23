@@ -13,7 +13,7 @@ class Navbar extends Component {
                         </Link>
                     </li>     */}
                     <li className='link'>
-                        <Link to='/my_diary' replace='false'>
+                        <Link to='/' replace='false'>
                             Home
                         </Link>
                     </li>    

@@ -8,9 +8,9 @@ class About extends Component {
         return (
         <main className='Dat_Info'>
             <nav className='d-flex justify-content-between border-bottom'>
-                <button className='btn bg-transparent'>
+                <Link to='/' className='btn bg-transparent'>
                     <img src={require('../images/icons/preview.png').default } alt="" className='h-1'/>
-                </button>
+                </Link>
                 <p className='size-16 my-auto'>
                     <b>
                         Bùi Đạt
@@ -73,6 +73,24 @@ class About extends Component {
                             Đến từ <b>Tuyên Quang</b>
                         </p>
                     </li>
+                    <li className='d-flex'>                                      
+                        <img src={require('../images/icons/study.png').default } alt="" className='h-1 mr-2 light-mode'/>             
+                        <p className='mb-2'> 
+                            Học tập tại <b>w3schools</b>
+                        </p>
+                    </li>
+                    <li className='d-flex'>                                      
+                        <img src={require('../images/icons/work.png').default } alt="" className='h-1 mr-2 light-mode'/>             
+                        <p className='mb-2'> 
+                            Làm việc tại <b>Fago Group</b>
+                        </p>
+                    </li>
+                    <li className='d-flex'>                                      
+                        <img src={require('../images/icons/relationship.png').default } alt="" className='h-1 mr-2 light-mode'/>             
+                        <p className='mb-2'> 
+                            độc thân
+                        </p>
+                    </li>
                 </ul>
             </div>                
             <div className='px-3'>
@@ -104,7 +122,7 @@ class About extends Component {
                     </li>
                 </ul>
             </div>
-            <section>
+            {/* <section>
                 <h2 className='size-16'>
                     <b>
                         Giới thiệu :
@@ -189,7 +207,7 @@ class About extends Component {
                     </u>
                     &nbsp;Đánh bại tướng thì làm tướng.  
                 </p>
-            </section>
+            </section> */}
         </main>
         );
     }

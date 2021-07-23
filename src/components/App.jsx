@@ -21,7 +21,7 @@ class App extends Component {
                 <Router>
                     <Navbar/>    
                         <Switch>
-                            <Route path='/my_diary' exact component={Home}/>
+                            <Route path='/' exact component={Home}/>
                             <Route path='/family' exact component={Family}/>
                             {/* <Route path='/linh-tinh' exact component={Linh_tinh}/> */}
                             <Route path='/sach' exact component={Sach_cate}/>
