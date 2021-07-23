@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 // import * as BsIcons from 'react-icons/bs';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/myApp.scss';
-import Navbar from './nav';
 import Home from './Home';
 import About from './about';
 import Family from './family';
@@ -19,17 +18,16 @@ class App extends Component {
         if (width > 768) {        
             return (
                 <Router>
-                    <Navbar/>    
-                        <Switch>
-                            <Route path='/' exact component={Home}/>
-                            <Route path='/family' exact component={Family}/>
-                            {/* <Route path='/linh-tinh' exact component={Linh_tinh}/> */}
-                            <Route path='/sach' exact component={Sach_cate}/>
-                            <Route path='/sach/:id' component={Sach}/>
-                            <Route path='/video' exact component={Video}/>                               
-                            <Route path='/About' component={About}/>                                                                 
-                            <Route path='/BornCalc' component={BornCalc}/>                               
-                        </Switch>
+                    <Switch>
+                        <Route path='/' exact component={Home}/>
+                        <Route path='/family' exact component={Family}/>
+                        {/* <Route path='/linh-tinh' exact component={Linh_tinh}/> */}
+                        <Route path='/sach' exact component={Sach_cate}/>
+                        <Route path='/sach/:id' component={Sach}/>
+                        <Route path='/video' exact component={Video}/>                               
+                        <Route path='/About' component={About}/>                                                                 
+                        <Route path='/BornCalc' component={BornCalc}/>                               
+                    </Switch>
                     <Footer/>
                 </Router>
             );
@@ -37,17 +35,16 @@ class App extends Component {
         else {
             return (
                 <Router>
-                    <Navbar/>    
-                        <Switch>
-                            <Route path='/my_diary' exact component={Home}/>
-                            <Route path='/family' exact component={Family}/>
-                            {/* <Route path='/linh-tinh' exact component={Linh_tinh}/> */}
-                            <Route path='/sach' exact component={Sach_cate}/>
-                            <Route path='/sach/:id' component={Sach}/>
-                            <Route path='/video' exact component={Video}/>                                                                                          
-                            <Route path='/About' component={About}/>     
-                            <Route path='/BornCalc' component={BornCalc}/>                               
-                        </Switch>
+                    <Switch>
+                        <Route path='/my_diary' exact component={Home}/>
+                        <Route path='/family' exact component={Family}/>
+                        {/* <Route path='/linh-tinh' exact component={Linh_tinh}/> */}
+                        <Route path='/sach' exact component={Sach_cate}/>
+                        <Route path='/sach/:id' component={Sach}/>
+                        <Route path='/video' exact component={Video}/>                                                                                          
+                        <Route path='/About' component={About}/>     
+                        <Route path='/BornCalc' component={BornCalc}/>                               
+                    </Switch>
                     <Footer/>
                 </Router>
             );

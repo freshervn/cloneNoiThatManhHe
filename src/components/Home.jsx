@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import DAT_SKills from './DAT_SKills';
-import Miniproduct from './DAT_SKills';
+import Navbar from './nav';
 class Home extends Component {
     state = {}
     render() { 
         return ( 
             <React.StrictMode>
+                <Navbar/>    
                 <DAT_SKills/>
                 {/* <p>Thiết kế CV</p>
                 <p>tông hợp các mục đã đã có</p>
