@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 // import * as BsIcons from 'react-icons/bs';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/myApp.scss';
-import Home from './Home';
+import Navbar from './nav';
+// import Home from './Home';
 import About from './about';
 import Family from './family';
 // import Linh_tinh from './Lnh-tinh';
@@ -11,6 +12,7 @@ import Footer from "./footer";
 import Sach_cate from './Sach_cate';
 import Sach from './sach';
 import BornCalc from './tinh-ngay-sinh-cho-be';
+import DAT_SKills from './DAT_SKills';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 class App extends Component {   
     render() { 
@@ -18,16 +20,17 @@ class App extends Component {
         if (width > 768) {        
             return (
                 <Router>
-                    <Switch>
-                        <Route path='/' exact component={Home}/>
-                        <Route path='/family' exact component={Family}/>
-                        {/* <Route path='/linh-tinh' exact component={Linh_tinh}/> */}
-                        <Route path='/sach' exact component={Sach_cate}/>
-                        <Route path='/sach/:id' component={Sach}/>
-                        <Route path='/video' exact component={Video}/>                               
-                        <Route path='/About' component={About}/>                                                                 
-                        <Route path='/BornCalc' component={BornCalc}/>                               
-                    </Switch>
+                    <Navbar/>    
+                        <Switch>
+                            <Route path='/' exact component={DAT_SKills}/>
+                            <Route path='/family' exact component={Family}/>
+                            {/* <Route path='/linh-tinh' exact component={Linh_tinh}/> */}
+                            <Route path='/sach' exact component={Sach_cate}/>
+                            <Route path='/sach/:id' component={Sach}/>
+                            <Route path='/video' exact component={Video}/>                               
+                            <Route path='/About' component={About}/>                                                                 
+                            <Route path='/BornCalc' component={BornCalc}/>                               
+                        </Switch>
                     <Footer/>
                 </Router>
             );
@@ -35,16 +38,16 @@ class App extends Component {
         else {
             return (
                 <Router>
-                    <Switch>
-                        <Route path='/my_diary' exact component={Home}/>
-                        <Route path='/family' exact component={Family}/>
-                        {/* <Route path='/linh-tinh' exact component={Linh_tinh}/> */}
-                        <Route path='/sach' exact component={Sach_cate}/>
-                        <Route path='/sach/:id' component={Sach}/>
-                        <Route path='/video' exact component={Video}/>                                                                                          
-                        <Route path='/About' component={About}/>     
-                        <Route path='/BornCalc' component={BornCalc}/>                               
-                    </Switch>
+                    <Navbar/>    
+                        <Switch>
+                            <Route path='/family' exact component={Family}/>
+                            {/* <Route path='/linh-tinh' exact component={Linh_tinh}/> */}
+                            <Route path='/sach' exact component={Sach_cate}/>
+                            <Route path='/sach/:id' component={Sach}/>
+                            <Route path='/video' exact component={Video}/>                                                                                          
+                            <Route path='/About' component={About}/>     
+                            <Route path='/BornCalc' component={BornCalc}/>                               
+                        </Switch>
                     <Footer/>
                 </Router>
             );
