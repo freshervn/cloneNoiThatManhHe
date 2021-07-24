@@ -20,30 +20,32 @@ nav.nav-index{
         list-style: none;
         display: flex;       
         margin-bottom: 0; 
-        .link{
-            margin-right: 1em;
-            &:last-child{
-                margin-right: 0;
-            }
+        .link{                                
+            border-top: 1px solid transparent;  
             a{
                 color: white;
                 text-decoration: none;
-                font-family: 'Lobster';          
+                font-family: 'Lobster';                
                 img{
-                    filter: brightness(0) invert(1) grayscale(50);
+                    filter: grayscale(50);
+                    height: 26px;
+                    width: 26px;
+                    &.on{
+                        filter: grayscale(0);
+                    }
                 } 
                 svg{
                     fill: gray;
+                    height: 28px;
+                    width: 28px;
                 }
             }
-            .icon{
-                height: 28px;
-                width: 28px;
-                @media (min-width:768px) {                    
-                    height: 32px;
-                    width: 32px;
+            &.true{
+                border-top: 1px solid #3578E5;
+                img{
+                    filter: grayscale(0);
                 }
-                &.on{
+                svg{
                     fill: #3578E5;
                 }
             }
