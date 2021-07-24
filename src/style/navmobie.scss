@@ -6,11 +6,23 @@ nav.nav-index{
         top:0;
         bottom: auto;
     }
+    border-top: 1px solid lightgray;
     z-index: 99;
     display: flex;
     background-color: white;    
     // background-color: #333;
-    .nav-links{
+    .nav-links{        
+        position: relative;
+        .stick-active{
+            background: #3578E5;
+            height: 2px;
+            width: 16.6%;            
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 5px;
+            transition: 0.1s ease-in-out;
+        }        
         justify-content: space-between;
         @media (min-width:768px) {            
             justify-content: left;
@@ -20,19 +32,62 @@ nav.nav-index{
         list-style: none;
         display: flex;       
         margin-bottom: 0; 
-        .link{                                
+        .link{            
+            &:nth-child(1){
+                &.active + .stick-active{
+                    left: 0;
+                }        
+            }         
+            &:nth-child(2){
+                &.active{
+                    & ~ .stick-active{
+                        left: 16.6%;
+                    }        
+                }
+            }     
+            &:nth-child(3){
+                &.active{
+                    & ~ .stick-active{
+                        left: 33.2%;
+                    }        
+                }      
+            }     
+            &:nth-child(4){
+                &.active{
+                    & ~ .stick-active{
+                        left: 49.8%;
+                    }        
+                }              
+            }     
+            &:nth-child(5){
+                &.active{
+                    & ~ .stick-active{
+                        left: 66.4%;
+                    }        
+                }
+            }    
+            &:nth-child(6){
+                &.active{
+                    & ~ .stick-active{
+                        left: 83%;
+                    }        
+                }
+            }     
+            flex: auto;
+            display: flex;
+            text-align: center;           
             border-top: 1px solid transparent;  
             a{
+                margin: auto;
+                display: inline-block;
                 color: white;
                 text-decoration: none;
-                font-family: 'Lobster';                
-                img{
+                font-family: 'Lobster';                                
+                img,i{
                     filter: grayscale(50);
                     height: 26px;
-                    width: 26px;
-                    &.on{
-                        filter: grayscale(0);
-                    }
+                    width: 26px;               
+                    margin: auto;     
                 } 
                 svg{
                     fill: gray;
@@ -40,9 +95,8 @@ nav.nav-index{
                     width: 28px;
                 }
             }
-            &.true{
-                border-top: 1px solid #3578E5;
-                img{
+            &.active{
+                img,i{
                     filter: grayscale(0);
                 }
                 svg{
@@ -50,10 +104,5 @@ nav.nav-index{
                 }
             }
         }
-    }
-}
-.topnav{
-    input.search{
-        padding-left: 40px;
     }
 }
