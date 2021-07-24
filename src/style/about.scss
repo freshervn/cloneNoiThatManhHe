@@ -3,17 +3,31 @@
         .background{
             height: 158px;
             @media (min-width:768px) {                
-                height: 184px;
+                height: 240px;
+            }
+            @media (min-width:992px) {                
+                height: 340px;
             }
             overflow: hidden;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            // border-bottom-left-radius: 15px;
+            // border-bottom-right-radius: 15px;
         }
         .avatar{            
             margin-top: -79px;
+            @media (min-width:768px) {                
+                margin-top: -120px;
+            }
             img{
-                border: 3px solid white;
+                border: 5px solid white;
                 border-radius: 50%;
                 width: 158px;
                 height: 158px;
+                @media (min-width:768px) {
+                    width: 240px;
+                    height: 240px;
+                }
                 top:50%;
                 left: 50%;
             }

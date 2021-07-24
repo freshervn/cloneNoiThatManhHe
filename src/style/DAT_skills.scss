@@ -1,6 +1,12 @@
 .DAT_skills{
     .skill{
-        height: 400px;
+        padding-top: 140%;
+        @media (min-width :768px) {            
+            height: 300px;
+        }
+        @media (min-width :992px) {            
+            height: 400px;
+        }
         transition: 0.3s ease-in-out;
         position: relative;
         *{

@@ -1,0 +1,20 @@
+[
+    {   
+        "id":1,
+        "name":"HTMl",
+        "images":"/my_diary/static/media/HTML5.svg.6b3b779d.png",        
+        "include":["HTML Basic Tag","HTML Semantic Tag","HTML Link Tag","HTML Form Tag"]
+    },
+    {   
+        "id":2,
+        "name":"CSS",
+        "images":"/my_diary/static/media/CSS3.svg.4e67641b.png",
+        "include":[]           
+    },
+    {   
+        "id":3,
+        "name":"JS",
+        "include":[],
+        "images":"/my_diary/static/media/JS.8896381a.png"        
+    }
+]

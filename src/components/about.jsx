@@ -1,29 +1,17 @@
 import React, { Component } from 'react';
+import NavAbout from "./navabout";
 import { Link } from 'react-router-dom';
-import myavtarHD from '../images/mattoifullhad.jpg';
 import '../style/about.scss';
 class About extends Component {
     state = {  }
     render() { 
         return (
-        <main className='Dat_Info'>
-            <nav className='d-flex justify-content-between border-bottom'>
-                <Link to='/' className='btn bg-transparent'>
-                    <img src={require('../images/icons/preview.png').default } alt="" className='h-1'/>
-                </Link>
-                <p className='size-16 my-auto'>
-                    <b>
-                        Bùi Đạt
-                    </b>
-                </p>
-                <button  className='btn bg-transparent'>
-                    <img src={require('../images/icons/search.png').default } alt="" className='h-1'/>
-                </button>
-            </nav>
+        <main className='Dat_Info container px-0 px-xs-3'>
+            <NavAbout/>
             <header className='text-center p-3'>            
                 <picture>
                     <source media="(min-width:465px)" srcset={require('../images/my-background.jpg').default}/>
-                    <div className='background rounded'>
+                    <div className='background'>
                         <img src={require('../images/my-background.jpg').default } alt="background" className='w-100'/>
                     </div>
                 </picture>
