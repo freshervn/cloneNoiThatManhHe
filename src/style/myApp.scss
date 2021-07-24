@@ -12,6 +12,8 @@
 @import "list";
 @import 'size';
 @import 'iconFacebookMap';
+@import 'mode';
+@import 'title';
 html{
     scroll-behavior: smooth;
 }
@@ -23,6 +25,7 @@ body{
     padding-bottom: 48px;
     margin: 0;
     background-color: white;
+    color: #050505;
     *{
         font-family: Arial, Helvetica, sans-serif ;
     }        

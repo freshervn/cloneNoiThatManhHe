@@ -12,7 +12,7 @@ nav.nav-index{
     background-color: white;    
     // background-color: #333;
     .nav-links{        
-        position: relative;
+        position: relative;      
         .stick-active{
             background: #3578E5;
             height: 2px;
@@ -22,12 +22,23 @@ nav.nav-index{
             left: 0;
             border-radius: 5px;
             transition: 0.1s ease-in-out;
+            @media (min-width:992px) {
+                bottom: 0;
+                top: inherit;
+                height: 3px;
+            }
         }        
         justify-content: space-between;
+        width: 100%;
         @media (min-width:768px) {            
             justify-content: left;
+            width: auto;
+            flex: auto;
         }
-        width: 100%;
+        @media (min-width:992px) {            
+            width: 500px;     
+            flex: none;       
+        }
         padding-left: 0;
         list-style: none;
         display: flex;       
@@ -101,6 +112,12 @@ nav.nav-index{
                 }
                 svg{
                     fill: #3578E5;
+                }
+            }
+            @media (min-width:992px) {
+                border-radius: 10px;
+                &:hover{
+                    background: #E4E6EB;                    
                 }
             }
         }
