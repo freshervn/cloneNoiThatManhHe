@@ -5,8 +5,8 @@ function NavAbout(){
     var screenwidth = window.innerWidth
     if (screenwidth < 992) {       
         return(
-            <nav className='row justify-content-between border-bottom about-nav px-3'>
-                <Link to='/' className='btn bg-transparent'>
+            <nav className='d-flex justify-content-between border-bottom about-nav px-3'>
+                <Link to='/' className='btn bg-transparent pl-0'>
                     <img src={require('../images/icons/preview.png').default } alt="" className='h-1'/>
                 </Link>
                 <p className='size-20 my-auto mr-auto'>
@@ -14,7 +14,7 @@ function NavAbout(){
                         Bùi Đạt
                     </b>
                 </p>
-                <label className="search btn mb-0">
+                <label className="search btn my-auto p-0">
                     <i data-visualcompletion="css-img" class="facebookSearch" ></i>
                     <input type="search" dir="ltr" aria-autocomplete="list" aria-expanded="false" aria-label="Tìm kiếm trên Facebook" role="combobox" placeholder="Tìm kiếm trên Facebook" autocomplete="off" name="global_typeahead" spellcheck="false" aria-invalid="false" value=""/>
                 </label>

@@ -30,7 +30,7 @@ class About extends Component {
                 </figure>                                
             </header>
             <div className='d-flex justify-content-between px-3 flex-wrap'>
-                <a href='https://www.facebook.com/guyfawker4' className='btn bg-whitesmoke p-1 px-2 flex-auto'>                                                                    
+                <a href='https://www.facebook.com/guyfawker4' className='btn bg-lightfb p-1 px-2 flex-auto'>                                                                    
                 <img src={require('../images/icons/facebook-new.png').default } alt="" className='h-1 mr-2'/>
                     <b>
                         Facebook
