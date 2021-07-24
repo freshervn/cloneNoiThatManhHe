@@ -1,33 +1,32 @@
 {
   "files": {
-    "main.css": "/my_diary/static/css/main.e07bf0f7.chunk.css",
-    "main.js": "/my_diary/static/js/main.a742e015.chunk.js",
-    "main.js.map": "/my_diary/static/js/main.a742e015.chunk.js.map",
+    "main.css": "/my_diary/static/css/main.9d9baec7.chunk.css",
+    "main.js": "/my_diary/static/js/main.6073e3fe.chunk.js",
+    "main.js.map": "/my_diary/static/js/main.6073e3fe.chunk.js.map",
     "runtime-main.js": "/my_diary/static/js/runtime-main.7260389e.js",
     "runtime-main.js.map": "/my_diary/static/js/runtime-main.7260389e.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/my_diary/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.8b18ccfe.chunk.js": "/my_diary/static/js/2.8b18ccfe.chunk.js",
-    "static/js/2.8b18ccfe.chunk.js.map": "/my_diary/static/js/2.8b18ccfe.chunk.js.map",
+    "static/js/2.0963fb9f.chunk.js": "/my_diary/static/js/2.0963fb9f.chunk.js",
+    "static/js/2.0963fb9f.chunk.js.map": "/my_diary/static/js/2.0963fb9f.chunk.js.map",
     "index.html": "/my_diary/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/my_diary/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.e07bf0f7.chunk.css.map": "/my_diary/static/css/main.e07bf0f7.chunk.css.map",
-    "static/js/2.8b18ccfe.chunk.js.LICENSE.txt": "/my_diary/static/js/2.8b18ccfe.chunk.js.LICENSE.txt",
+    "static/css/main.9d9baec7.chunk.css.map": "/my_diary/static/css/main.9d9baec7.chunk.css.map",
+    "static/js/2.0963fb9f.chunk.js.LICENSE.txt": "/my_diary/static/js/2.0963fb9f.chunk.js.LICENSE.txt",
     "static/media/CSS3.svg.4e67641b.png": "/my_diary/static/media/CSS3.svg.4e67641b.png",
     "static/media/HTML5.svg.6b3b779d.png": "/my_diary/static/media/HTML5.svg.6b3b779d.png",
     "static/media/JS.8896381a.png": "/my_diary/static/media/JS.8896381a.png",
-    "static/media/myApp.scss": "/my_diary/static/media/Nunito-Regular.e4eb7682.ttf",
+    "static/media/myApp.scss": "/my_diary/static/media/facebookicons2.d1a4d15e.png",
     "static/media/avatar.jpg": "/my_diary/static/media/avatar.0a1fd654.jpg",
     "static/media/facebook-new.png": "/my_diary/static/media/facebook-new.8e789ae3.png",
     "static/media/messenger.png": "/my_diary/static/media/messenger.eba7df9f.png",
     "static/media/my-background.jpg": "/my_diary/static/media/my-background.924f3b6b.jpg",
-    "static/media/search.png": "/my_diary/static/media/search.44c2b64d.png",
     "static/media/topcv.ico": "/my_diary/static/media/topcv.a7a6abc7.ico"
   },
   "entrypoints": [
     "static/js/runtime-main.7260389e.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.8b18ccfe.chunk.js",
-    "static/css/main.e07bf0f7.chunk.css",
-    "static/js/main.a742e015.chunk.js"
+    "static/js/2.0963fb9f.chunk.js",
+    "static/css/main.9d9baec7.chunk.css",
+    "static/js/main.6073e3fe.chunk.js"
   ]
 }
