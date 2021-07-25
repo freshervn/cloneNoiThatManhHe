@@ -1,0 +1,56 @@
+.lmeo{    
+    transition:1s ease-in-out;    
+    .theme{
+        fill:#66604e;
+    }
+    .highlight{
+        fill:#cc8e4a;
+    }
+    &:hover{        
+        .left-pupil,.right-pupil{
+            animation: eye 1s linear infinite;
+        }
+        .bread{
+            animation: bread 2s linear alternate-reverse infinite;
+        }
+        .bread-right{
+            animation: bread 2s linear reverse infinite;
+        }
+        .face{
+            animation: face 2s ease-in-out infinite;
+        }        
+    }    
+}
+@keyframes eye{
+    25%{
+        transform: translateX(-10px);
+        fill: #FFCE42;
+    }
+    50%{
+        transform: translateX(0px);
+        fill: #80D2D2;
+    }
+    75%{
+        transform: translateX(10px);
+        fill: #42FFCA;
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+@keyframes bread{    
+    25%{
+        transform:rotateY(15deg) rotateX(5deg);
+    }
+    50%{
+        transform:rotateY(-15deg) rotateX(5deg);
+    }
+}
+@keyframes face{    
+    0%{
+        opacity: 0;
+    }
+    100%{
+        fill:black;
+    }
+}
