@@ -1,18 +1,22 @@
 .Dat_Info{
+    width: 1040px;
+    max-width: 100%;    
     header{
         .background{
             height: 158px;
             @media (min-width:768px) {                
                 height: 240px;
             }
-            @media (min-width:992px) {                
-                height: 340px;
-            }
             overflow: hidden;
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
-            // border-bottom-left-radius: 15px;
-            // border-bottom-right-radius: 15px;
+            @media (min-width:992px) {                
+                height: 340px;
+                border-top-left-radius: 0px;
+                border-top-right-radius: 0px;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+            }            
         }
         .avatar{            
             margin-top: -79px;
