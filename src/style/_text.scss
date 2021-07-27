@@ -1,3 +1,6 @@
+// size 16 title
+// size 14 link
+// size 12 decription
 @mixin inheritsize($font-size) {
     font-size: $font-size !important;
     * {
@@ -19,12 +22,14 @@
     -webkit-line-clamp: $numberline;
     -webkit-box-orient: vertical;
     height: $numberline * 1.5em + 0.1em;
-    line-height: 1.6em;
 }
-.line-2-ellipsis,.limit-2{
+.line-2-ellipsis,.limit-2,%limit-2{
     @include line-ellipsis(2);
 }
-.limit-1,%limit-1{
+.line-3-ellipsis,.limit-3,%limit-3{
+    @include line-ellipsis(3);
+}
+%limit-1{
     @include line-ellipsis(1);
 }
 .line-4-ellipsis,.limit-4{
@@ -33,26 +38,26 @@
 .no-decoration{
     text-decoration: none !important;
 }
-.size-15rem{
-    font-size: 1.5rem !important;
-}
-.size-12{
-    font-size: 12px !important;
-}
-.size-14{
-    font-size: 14px !important;
-}
-.size-13{
-    font-size: 13px !important;
+.size-10{
+    font-size: 10px !important;
 }
 .size-11{
     font-size: 11px !important;
 }
-.size-10{
-    font-size: 10px !important;
+.size-12{
+    font-size: 12px !important;
+}
+.size-13{
+    font-size: 13px !important;
+}
+.size-14{
+    @include inheritsize(14px);
+}
+.size-15{
+    @include inheritsize(15px);
 }
 .size-16{
-    font-size: 16px !important;    
+    font-size: 16px !important;  
 }
 .size-16-14{
     font-size: 14px !important;
@@ -60,11 +65,14 @@
         font-size: 16px !important;
     }
 }
-.size-18-16{
-    font-size: 16px !important;
+.size-16-13{
+    font-size: 13px !important;
     @media (min-width:768px) {
-        font-size: 18px !important;
+        font-size: 16px !important;
     }
+}
+.size-18{
+    font-size: 18px !important;    
 }
 .size-18-14{
     font-size: 14px !important;
@@ -72,8 +80,11 @@
         font-size: 18px !important;
     }
 }
-.size-20{
-    font-size: 20px !important;   
+.size-18-16{
+    font-size: 16px !important;
+    @media (min-width:768px) {
+        font-size: 18px !important;
+    }
 }
 .size-22{
     font-size: 22px !important;   
@@ -84,17 +95,26 @@
         font-size: 22px !important;
     }
 }
+.size-24{
+    font-size: 24px !important;
+}
 .size-24-18{
     font-size: 18px !important;
     @media (min-width:768px) {
         font-size: 24px !important;
     }
 }
-.size-24{
-    font-size: 24px !important;
+.size-26{
+    font-size: 26px !important;
 }
-.size-28{
-    font-size: 28px !important;
+.size-32{
+    font-size: 32px !important;
+}
+.size-32-20{
+    font-size: 20px !important;
+    @media (min-width:768px) {
+        font-size: 32px !important;
+    }
 }
 .size-32-24{
     font-size: 24px !important;
@@ -114,27 +134,31 @@
         font-size: 50px !important;
     }
 }
-.title{
-    text-align: center;
-    font-size: 22px;
-    color: var(--theme);
-    width: fit-content;
-    position: relative;
-    margin: auto;
-    @media (min-width:768px) {
-        font-size: 34px;
-    }
-    &::after{
-        content: '';
-        position: absolute;
-        width: 50%;
-        top: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-        height: 2px;
-        background:var(--theme);
-    }
+.size-15rem{
+    font-size: 1.5rem !important;
 }
+
+// .title{
+//     text-align: center;
+//     font-size: 22px;
+//     color: var(--theme);
+//     width: fit-content;
+//     position: relative;
+//     margin: auto;
+//     @media (min-width:768px) {
+//         font-size: 34px;
+//     }
+//     &::after{
+//         content: '';
+//         position: absolute;
+//         width: 50%;
+//         top: 100%;
+//         left: 50%;
+//         transform: translateX(-50%);
+//         height: 2px;
+//         background:var(--theme);
+//     }
+// }
 .u-50px{
     position: relative;
     &::after{
@@ -147,48 +171,52 @@
         left: 0;
     }
 }
-.underline-white{
-    position: relative;
-    width: fit-content;
-    margin: auto;
-    &::after{
-        content: '';
-        position: absolute;
-        width: 50%;
-        top: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-        height: 2px;
-        background-color: white;
-    }
-}
-.markerIMG{
-    position: relative;
-    padding-left: calc(22px + 0.5em);
-    &:before {
-    content: "";
-    width: 1.5em;
-    height: 1.5em;
-    position: absolute;
-    top: 0;
-    left: 0;
-    // background-image: url('../images/item_title.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    transition: .5s;
-    }
-}
 .font-time{
     font-family: 'Times New Roman', Times, serif !important;
-}
-.C45{
-    width: calc(100% - 30px);
-    @media (min-width:768px) {        
-        width: 22.5em !important;
-    }
 }
 .nowrap{
     word-break: keep-all !important;
     white-space: nowrap;
+}
+.Lobster{
+    font-family: 'Lobster';
+}
+.title-section{
+    text-align: center;
+    .title{
+        font-size: 24px;
+        margin: auto;
+        position: relative;
+        display: inline-block;
+        &::after{
+            position: absolute;
+            content:'';
+            top: calc(100% + 32px);
+            left: 50%;
+            height: 1px;
+            width: 100%;
+            background: lightgray;
+            transform: translateX(-50%);
+        }
+        margin-top: 15px;
+    }
+    .cord-socket-icon{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        .cord,.sockets{
+            height: 32px;
+            transition: 0.3s ease-in-out;
+        }        
+    }
+    &:hover{
+        .cord-socket-icon{
+            .cord{
+                transform: translateX(10px);
+            }        
+            .sockets{
+                transform: translateX(-10px);
+            }        
+        }   
+    }
 }

@@ -1,0 +1,11 @@
+.hv-brightness{
+    &:hover{
+        filter: brightness(90%) !important;
+    }
+}
+.hv-btn-white{
+    border-radius: 5px;
+    &:hover{
+        background: #E4E6EB;                    
+    }
+}

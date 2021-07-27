@@ -4,3 +4,8 @@
 .h-2{
     height: 2em !important;
 }
+.h-lg-2{
+    @media (min-width:992px) {        
+        height: 1.2em !important;
+    }
+}
