@@ -1,0 +1,8 @@
+.rounded-1{
+    border-radius: 0.5em !important;
+}
+.rounded-lg-1{
+    @media (min-width:992px) {    
+        border-radius: 0.5em !important;
+    }
+}

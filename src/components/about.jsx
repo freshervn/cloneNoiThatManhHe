@@ -98,7 +98,7 @@ class About extends Component {
             <div className='bg-web-wash'>
                 <div className='container p-0 pt-lg-3 px-lg-5'>               
                     <div className='row mx-0'>
-                        <aside className='col-lg-4 px-0 bg-white rounded py-3 shadow'>
+                        <aside className='col-lg-4 px-0 bg-white rounded-lg-1 py-3 shadow'>
                             <div className='px-3'>
                                 <p className='size-22 d-none d-lg-block'>
                                     <b>
@@ -170,7 +170,7 @@ class About extends Component {
                             </div>                               
                         </aside>                
                         <main className='col-lg-8 pr-lg-0 px-0 px-md-3'>
-                            <div className='bg-white rounded shadow p-lg-3'>
+                            <div className='bg-white rounded-lg-1 shadow p-lg-3'>
                                 <div className='d-flex px-3 p-lg-0'>
                                     <Link to='/about' title='Name'>
                                         <img src={require('../images/avatar.jpg').default} alt="" className='square40 rounded-circle mr-2 mr-lg-3'/>                    
@@ -181,20 +181,36 @@ class About extends Component {
                                 </div>
                                 <hr className='my-2'/>
                                 <div className='d-flex'>
-                                    <button className='w-100 btn size-14'>
+                                    <button className='w-100 btn size-14 d-lg-none'>
                                         <img class="mr-1" src="https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/OR6SzrfoMFg.png" alt="" height="14" width="14"></img>
                                         <span>write post</span>
                                     </button>
-
-                                    <span className='py-1'>|</span>
-
-                                    <button className='w-100 btn size-14'>
+                                    <span className='py-1 d-lg-none'>|</span>
+                                    <button className='w-100 btn d-lg-none'>
                                         <i className='facebookPhoto mr-1'></i>
                                         <span>
-
                                             share photo
                                         </span>
                                     </button>
+                                    <button className='flex-auto btn hv-btn-white d-none d-lg-flex'>
+                                        <i className='facebookPhoto2 mr-2'></i>
+                                        <b className='my-auto fb-secondary-color size-15'>
+                                            Ảnh/Video
+                                        </b>
+                                    </button>
+                                    <button className='flex-auto btn hv-btn-white d-none d-lg-flex'>
+                                        <i className='facebookTag mr-2'></i>
+                                        <b className='my-auto fb-secondary-color size-15'>
+                                            Gắn thẻ bạn bè
+                                        </b>
+                                    </button>
+                                    <button className='flex-auto btn hv-btn-white d-none d-lg-flex'>
+                                        <i className='facebookEmotion mr-2'></i>
+                                        <b className='my-auto fb-secondary-color size-15'>
+                                            Cảm xúc/Hoạt động
+                                        </b>
+                                    </button>
+                                    
                                 </div>
                             </div>
                         </main>                
