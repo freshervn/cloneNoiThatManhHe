@@ -7,13 +7,86 @@
     background: white;
     z-index: 99;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    animation: flyup 0.5s ease-in-out;
-    &.d-none{
-        animation: none;
+    .status_area{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        animation: flyup 0.5s ease-in-out;
+        nav{
+            background: var(--web-wash);
+        }
+        .avatar{
+            height: 40px;
+            width: 40px;
+        }
+        .btn.dropdown-toggle{
+            font-size: 12px;
+            b{
+                color: var(--secondary-text);
+            }
+            &::after {
+                vertical-align: 0em;            
+            }
+        }
+        .tags{
+            box-shadow: 0rem 0rem 0.5rem lightgray;
+        }
     }
-    @media screen {
-        
+    &.d-none{
+        .status_area{
+            animation: none;
+        }
+    }
+    @media (min-width:992px) {
+    background: var(--overlay-alpha-80);
+        .status_area{
+            width: 500px;
+            height: 500px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: auto;
+            background: white;
+            nav{
+                background: white;
+                height: 60px;
+                position: relative;
+                h5{
+                    margin: auto;
+                }
+                .closedesk{
+                    line-height: 1em;
+                    position: absolute;
+                    right: 15px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    height: 40px;
+                    width: 40px;
+                    i{
+                        filter: var(--filter-secondary-icon);
+                    }
+                }
+            }
+            .btn.dropdown-toggle{
+                font-size: 15px;
+                background: var(--web-wash);
+                b{
+                    color: black;
+                }
+                &::after {
+                    margin-left: 0.5em;
+                    vertical-align: 0.15em;
+                }                
+            }
+            textarea{
+                height: 10em;
+            }
+            .tags{
+                border-radius: 10px;
+                border:solid 1px var(--divider);
+                box-shadow: 0 1px 2px var(--media-inner-border);
+            }
+        }
     }
 }

@@ -53,6 +53,9 @@
 .size-14{
     @include inheritsize(14px);
 }
+.size-15-14{
+    @include resize(15px,1px);  
+}
 .size-15{
     @include inheritsize(15px);
 }

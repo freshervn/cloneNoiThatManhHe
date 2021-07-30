@@ -4,3 +4,8 @@
 .flex-auto{
     flex:auto !important;
 }
+.flex-lg-none{
+    @media (min-width:992px) {        
+        flex:none !important;
+    }
+}

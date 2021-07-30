@@ -9,3 +9,8 @@
         height: 1.2em !important;
     }
 }
+.h-lg-40{
+    @media (min-width:992px) {        
+        height: 40px;
+    }
+}
