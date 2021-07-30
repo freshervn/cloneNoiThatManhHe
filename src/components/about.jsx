@@ -4,7 +4,14 @@ import { Link } from 'react-router-dom';
 import WriteStatus from './box-status';
 import '../style/about.scss';
 class About extends Component {
-    state = {  }
+    state = {
+        active:'pending',
+        WriteStatus:'false',        
+    };
+    testting=()=>{
+        this.setState({WriteStatus:!this.state.WriteStatus});
+        this.setState({active:'active'});
+    }
     render() { 
         return (
         <div className='Dat_Info px-xs-3'>
@@ -172,13 +179,8 @@ class About extends Component {
                         </aside>                
                         <main className='col-lg-8 pr-lg-0 px-0 px-md-3'>
                             <div className='bg-white rounded-lg-1 shadow p-lg-3'>
-                                <div className='d-flex px-3 p-lg-0'>
-                                    <Link to='/about' title='Name'>
-                                        <img src={require('../images/avatar.jpg').default} alt="" className='square40 rounded-circle mr-2 mr-lg-3'/>                    
-                                    </Link>                
-                                    <p className='my-auto bg-web-wash px-3 py-2 w-100 rounded-pill text-secondary'>
-                                        Viết gì đó cho Đạt...                                        
-                                    </p>
+                                <div className='d-flex px-3 p-lg-0'>                                    
+                                    <WriteStatus/>     
                                 </div>
                                 <hr className='my-2'/>
                                 <div className='d-flex'>
@@ -212,8 +214,7 @@ class About extends Component {
                                         </b>
                                     </button>                                    
                                 </div>
-                            </div>
-                            <WriteStatus/>
+                            </div>                       
                         </main>                
                     </div>
                 </div>
