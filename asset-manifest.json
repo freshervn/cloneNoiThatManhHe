@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my_diary/static/css/main.6e1eb356.chunk.css",
+    "main.css": "/my_diary/static/css/main.53b8ffc9.chunk.css",
     "main.js": "/my_diary/static/js/main.71073402.chunk.js",
     "main.js.map": "/my_diary/static/js/main.71073402.chunk.js.map",
     "runtime-main.js": "/my_diary/static/js/runtime-main.7260389e.js",
@@ -10,7 +10,7 @@
     "static/js/2.45a9c3cf.chunk.js.map": "/my_diary/static/js/2.45a9c3cf.chunk.js.map",
     "index.html": "/my_diary/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/my_diary/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.6e1eb356.chunk.css.map": "/my_diary/static/css/main.6e1eb356.chunk.css.map",
+    "static/css/main.53b8ffc9.chunk.css.map": "/my_diary/static/css/main.53b8ffc9.chunk.css.map",
     "static/js/2.45a9c3cf.chunk.js.LICENSE.txt": "/my_diary/static/js/2.45a9c3cf.chunk.js.LICENSE.txt",
     "static/media/CSS3.svg.4e67641b.png": "/my_diary/static/media/CSS3.svg.4e67641b.png",
     "static/media/HTML5.svg.6b3b779d.png": "/my_diary/static/media/HTML5.svg.6b3b779d.png",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.7260389e.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.45a9c3cf.chunk.js",
-    "static/css/main.6e1eb356.chunk.css",
+    "static/css/main.53b8ffc9.chunk.css",
     "static/js/main.71073402.chunk.js"
   ]
 }
