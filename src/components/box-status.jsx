@@ -2,7 +2,7 @@ import React, { Component, useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../style/writeStatus.scss';
 function WriteStatus() {   
-    const [display,setState]=useState(true);
+    const [display,setState]=useState(false);
     function changedisplay() {
         setState(predisplay => !predisplay);                
     }
