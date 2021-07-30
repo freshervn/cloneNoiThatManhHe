@@ -9,3 +9,11 @@
         background: #E4E6EB;                    
     }
 }
+.hv-lg-btn-white{
+    @media (min-width:992px) {
+        border-radius: 5px;
+        &:hover{
+            background: #E4E6EB;                    
+        }   
+    }
+}
