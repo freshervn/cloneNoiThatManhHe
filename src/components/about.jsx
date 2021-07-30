@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavAbout from "./navabout";
 import { Link } from 'react-router-dom';
+import WriteStatus from './box-status';
 import '../style/about.scss';
 class About extends Component {
     state = {  }
@@ -76,19 +77,19 @@ class About extends Component {
                         </div>
                     </div>
                     <div className='d-flex justify-content-between flex-wrap ml-auto my-lg-1'>
-                        <a href='https://www.facebook.com/guyfawker4' className='btn bg-lightfb p-1 px-2 flex-auto mr-lg-2 hv-brightness'>                                                                    
-                        <img src={require('../images/icons/facebook-new.png').default } alt="" className='h-1 mr-2'/>
+                        <a href='https://www.facebook.com/guyfawker4' className='btn bg-lightfb p-1 px-2 mr-lg-2 hv-brightness '>                                                                    
+                            <img src={require('../images/icons/facebook-new.png').default } alt="" className='h-1 mr-2'/>
                             <b>
                                 Facebook
                             </b>
                         </a>              
-                        <a href='https://www.facebook.com/messages/t/100013417411468/' className='btn bg-primary p-1 px-2 mr-lg-2 hv-brightness'>                       
+                        <a href='https://www.facebook.com/messages/t/100013417411468/' className='btn bg-primary p-1 px-2 mr-lg-2 hv-brightness '>                       
                             <img src={require('../images/icons/messenger.png').default } alt="" className='h-1 mr-2'/>
                             <b className='text-white'>
                                 Messager
                             </b>
                         </a>
-                        <a href='https://i.topcv.vn/buithanhdat?ref=3916884' className='btn p-0 my-auto hv-brightness'>                       
+                        <a href='https://i.topcv.vn/buithanhdat?ref=3916884' className='btn p-0 my-auto hv-brightness '>                       
                             <img src={require('../images/icons/topcv.ico').default } alt="" className='h-2'/>             
                         </a>            
                     </div>              
@@ -209,10 +210,10 @@ class About extends Component {
                                         <b className='my-auto fb-secondary-color size-15'>
                                             Cảm xúc/Hoạt động
                                         </b>
-                                    </button>
-                                    
+                                    </button>                                    
                                 </div>
                             </div>
+                            <WriteStatus/>
                         </main>                
                     </div>
                 </div>

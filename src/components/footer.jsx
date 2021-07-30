@@ -9,6 +9,17 @@ class Footer extends Component {
                 {/* <a href='#topPages' id='btn-scroll'>
                     <img src={btn_scroll} alt="btn-scroll" />
                 </a> */}
+                <p>
+                    chức năng trong web
+                </p>
+                <ul>
+                    <li>
+                        render
+                    </li>
+                    <li>
+                        router
+                    </li>
+                </ul>
             </React.StrictMode>
          );
     }

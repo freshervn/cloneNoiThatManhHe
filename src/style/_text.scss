@@ -59,6 +59,9 @@
 .size-16{
     font-size: 16px !important;  
 }
+.size-16-15{
+    @include resize(16px,1px);  
+}
 .size-16-14{
     font-size: 14px !important;
     @media (min-width:768px) {

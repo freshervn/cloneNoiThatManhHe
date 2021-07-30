@@ -12,8 +12,9 @@ function App() {
         <Router>
             <Navbar/>                      
             <Switch>                                                           
-                <Route path='/' exact component={DAT_SKills}/>                               
-                <Route path='/About' component={About}/>      
+                <Route path='/skills' exact component={DAT_SKills}/>                               
+                <Route path='/' component={About}/>      
+                <Route path='/about' component={About}/>
             </Switch>
             <Footer/>
         </Router>
