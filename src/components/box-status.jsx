@@ -30,7 +30,7 @@ function WriteStatus() {
                         </b>
                     </label>
                 </nav>
-                <div className='px-3 pt-3 pb-0'>
+                <div className='px-3 pt-3 pb-0 flex-auto flex-column d-flex'>
                     <div className='d-flex'>
                         <Link to='/about' title='Name'>
                                 <img src={require('../images/avatar.jpg').default} alt="" className='mr-2 h-2 rounded-circle'/>                    
@@ -63,9 +63,11 @@ function WriteStatus() {
                     </div>
                     <textarea className='border-0 outline-0 pt-3'  name="" id="" cols="30" rows="10" placeholder='Bạn đang nghĩ gì'>
                     </textarea>
-                    <img height="32" alt="" referrerpolicy="origin-when-cross-origin" src={require('../images/icons/SATP_Aa_square-2x.png').default}></img>                    
+                    <div className='mt-auto' >
+                    <img height="32" width='auto' alt="" referrerpolicy="origin-when-cross-origin" src={require('../images/icons/SATP_Aa_square-2x.png').default}></img>                    
+                    </div>
                 </div>
-                <div className='d-flex justify-content-between rounded-top-2 shadow-top w-100'>                   
+                <div className='d-flex justify-content-between rounded-top-2 shadow-top w-100 mt-auto px-2'>                   
                         <button className='btn hv-btn-white'>
                             <i className='facebookMic'></i>
                         </button>
