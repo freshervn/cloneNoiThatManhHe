@@ -2,7 +2,7 @@ import React, { Component, useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../style/writeStatus.scss';
 function WriteStatus() {   
-    const [display,setState]=useState(true);
+    const [display,setState]=useState(false);
     function changedisplay() {
         setState(predisplay => !predisplay);                
     }
@@ -68,11 +68,16 @@ function WriteStatus() {
                         <textarea className='border-0 outline-0 pt-3'  name="" id="" cols="30" rows="10" placeholder='Bạn đang nghĩ gì'>
                         </textarea>
                         <div className='mt-auto' >
-                        <img className='h-lg-40' height="32" width='auto' alt="" referrerpolicy="origin-when-cross-origin" src={require('../images/icons/SATP_Aa_square-2x.png').default}></img>                    
+                        <img className='h-lg-40 mb-lg-4' height="32" width='auto' alt="" referrerpolicy="origin-when-cross-origin" src={require('../images/icons/SATP_Aa_square-2x.png').default}></img>                    
                         </div>
                     </div>
                     <div className='px-lg-3 mt-3 mt-auto'>
                         <div className='tags d-flex justify-content-between rounded-top-2 w-100  mt-lg-0 px-2 bg-white'>                   
+                            <p className='d-none d-lg-inline-block mr-auto my-auto'>
+                                <b>
+                                    Thêm vào bài viết
+                                </b>
+                            </p>
                             <button className='btn hv-btn-white'>
                                 <i className='facebookMic'></i>
                             </button>
@@ -89,6 +94,11 @@ function WriteStatus() {
                                 <i className='facebookPosition mr-2'></i>
                             </button>          
                         </div>
+                        <button className='btn w-100 btn-primary mt-3 d-none d-lg-inline-block'>
+                            <b>
+                                Đăng
+                            </b>
+                        </button>
                     </div>
                 </div>
             </div>

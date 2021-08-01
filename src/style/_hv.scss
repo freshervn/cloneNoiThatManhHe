@@ -9,6 +9,12 @@
         background: #E4E6EB;                    
     }
 }
+.hv-btn-white-2{
+    border-radius: 5px;
+    &:hover{
+        background: var(--web-wash);                    
+    }
+}
 .hv-lg-btn-white{
     @media (min-width:992px) {
         border-radius: 5px;

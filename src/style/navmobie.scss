@@ -3,10 +3,10 @@ nav.nav-index{
     bottom:0;
     width: 100%;
     @media (min-width:992px) {
-        position: inherit;
+        position: static;
         top:0;
         bottom: auto;
-        width: auto;
+        width: auto;        
     }
     border-top: 1px solid lightgray;
     z-index: 99;
@@ -112,10 +112,15 @@ nav.nav-index{
                     background: #FA383E;
                     padding: 0.1em 0.5em ;
                     border-radius: 3em;
-                    font-size: 13px;
+                    font-size: 10px;
                     position: absolute;
-                    top:-10px;
-                    right: -19px;
+                    top:-6px;
+                    right: -16px;
+                    @media (min-width:992px) {                    
+                        font-size: 13px;
+                        top:-10px;
+                        right: -19px;
+                    }
                 }
             }
             &.active{

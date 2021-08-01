@@ -1,5 +1,8 @@
-.nav-desktop{
+nav.nav-desktop{
     border-bottom: 1px solid #E4E6EB;
+    @media (min-width:992px) {
+        position:fixed;
+    }
     .search{
         position: relative;
         i{

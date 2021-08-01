@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NavAbout from "./navabout";
 import { Link } from 'react-router-dom';
 import WriteStatus from './box-status';
+import Status from './status';
 import '../style/about.scss';
 class About extends Component {
     state = {
@@ -106,7 +107,9 @@ class About extends Component {
             <div className='bg-web-wash'>
                 <div className='container p-0 pt-lg-3 px-lg-5'>               
                     <div className='row mx-0'>
-                        <aside className='col-lg-4 px-0 bg-white rounded-lg-1 py-3 shadow'>
+                        <aside className='col-lg-4 px-0'>                            
+                        <div className='bg-white rounded-lg-1 py-3 shadow'>
+
                             <div className='px-3'>
                                 <p className='size-22 d-none d-lg-block'>
                                     <b>
@@ -176,9 +179,10 @@ class About extends Component {
                                 </ul>
                                 <hr className='my-0'/>                            
                             </div>                               
+                        </div>
                         </aside>                
                         <main className='col-lg-8 pr-lg-0 px-0 px-md-3'>
-                            <div className='bg-white rounded-lg-1 shadow p-lg-3'>
+                            <div className='bg-white rounded-lg-1 shadow p-lg-3 mb-3'>
                                 <div className='d-flex px-3 p-lg-0'>                                    
                                     <WriteStatus/>     
                                 </div>
@@ -215,6 +219,7 @@ class About extends Component {
                                     </button>                                    
                                 </div>
                             </div>                       
+                            <Status/>
                         </main>                
                     </div>
                 </div>
