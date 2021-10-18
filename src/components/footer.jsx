@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../style/footer.scss';
-import btn_scroll from '../images/back-to-top.png';
+// import btn_scroll from '../images/back-to-top.png';
 class Footer extends Component {
     state = {  }
     render() { 

@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-class Miniproduct extends Component {
-    state = {  }
-    render() { 
-        return ( 
-            <div className='product'>
+// import React, { Component } from 'react';
+// class Miniproduct extends Component {
+//     state = {  }
+//     render() { 
+//         return ( 
+//             <div className='product'>
                 
-            </div>
-         );
-    }
-}
+//             </div>
+//          );
+//     }
+// }
  
-export default Miniproduct;
+// export default Miniproduct;

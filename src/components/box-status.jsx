@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, {  useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../style/writeStatus.scss';
 function WriteStatus() {   
@@ -14,7 +14,7 @@ function WriteStatus() {
             <p className='my-auto bg-web-wash px-3 py-2 w-100 rounded-pill text-secondary' onClick={changedisplay}>
                 Viết gì đó cho Đạt...                                        
             </p>
-            <div className={'WriteStatus'+ (display==false ? ' d-none':'')}>
+            <div className={'WriteStatus'+ (display===false ? ' d-none':'')}>
                 <div className='status_area'>
                     <nav className='d-flex justify-content-between border-bottom  px-3 w-100'>
                         <button to='/' className='btn bg-transparent pl-0 d-lg-none' onClick={changedisplay}>
@@ -46,16 +46,16 @@ function WriteStatus() {
                                     </b>
                                 </p>
                                 <div className='d-flex flex-wrap'>                            
-                                    <div class="dropdown">
-                                        <button class="btn dropdown-toggle px-1 py-0 border rounded mr-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">                                                                
+                                    <div className="dropdown">
+                                        <button className="btn dropdown-toggle px-1 py-0 border rounded mr-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">                                                                
                                             <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/H8GWr17BZ_T.png" alt="Bạn bè ngoại trừ..." height="12" width="12"/>
                                             <b>
                                                 Bạn bè
                                             </b>
                                         </button>                              
                                     </div>
-                                    <div class="dropdown">
-                                        <button class="btn dropdown-toggle px-1 py-0 border rounded mr-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">                                                                
+                                    <div className="dropdown">
+                                        <button className="btn dropdown-toggle px-1 py-0 border rounded mr-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">                                                                
                                             <i className='facebookPlush12'></i>
                                             <b>
                                                 Album
@@ -68,7 +68,7 @@ function WriteStatus() {
                         <textarea className='border-0 outline-0 pt-3'  name="" id="" cols="30" rows="10" placeholder='Bạn đang nghĩ gì'>
                         </textarea>
                         <div className='mt-auto' >
-                        <img className='h-lg-40 mb-lg-4' height="32" width='auto' alt="" referrerpolicy="origin-when-cross-origin" src={require('../images/icons/SATP_Aa_square-2x.png').default}></img>                    
+                        <img className='h-lg-40 mb-lg-4' height="32" width='auto' alt=""  src={require('../images/icons/SATP_Aa_square-2x.png').default}></img>                    
                         </div>
                     </div>
                     <div className='px-lg-3 mt-3 mt-auto'>

@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import Post from '../data/mypost.json'
 import '../style/Status.scss';
 function Status(){    
     return ( 
         <div>
-        {Post .map(
+        {Post.map(
             (post)=>                       
                 <section className='bg-white rounded-lg-1 shadow  Status mb-3'>
                     <header className='d-flex w-100 p-3'>

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import "../style/navabout.scss";
 function NavAbout(){
@@ -15,8 +15,8 @@ function NavAbout(){
                     </b>
                 </p>
                 <label className="search btn my-auto p-0">
-                    <i data-visualcompletion="css-img" class="facebookSearch" ></i>
-                    <input type="search" dir="ltr" aria-autocomplete="list" aria-expanded="false" aria-label="Tìm kiếm trên Facebook" role="combobox" placeholder="Tìm kiếm trên Facebook" autocomplete="off" name="global_typeahead" spellcheck="false" aria-invalid="false" value=""/>
+                    <i data-visualcompletion="css-img" className="facebookSearch" ></i>
+                    <input type="search" dir="ltr" aria-label="Tìm kiếm trên Facebook" placeholder="Tìm kiếm trên Facebook" name="global_typeahead" aria-invalid="false" value=""/>
                 </label>
             </nav>
         );
